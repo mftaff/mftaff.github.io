@@ -1,8 +1,8 @@
 {
-  "name": "personalwebsite",
-  "description": "Personal Website for Jan Schøpp",
+  "name": "meyertaffel",
+  "description": "Web Developer & Consultant \"Hone your site's message with a blend of strategy, design, tech savvy, and branding\" The result? Smiles",
   "version": "1.0.0",
-  "author": "Jan Schøpp",
+  "author": "Meyer Taffel",
   "dependencies": {
     "gatsby": "^2.0.85",
     "gatsby-link": "^2.0.7",

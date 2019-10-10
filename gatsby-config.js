@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: 'Jan Schøpp\s Personal Page',
+        title: 'Meyer Taffel - Web Developer & Consultant',
     },
     plugins: [
         'gatsby-plugin-react-helmet',

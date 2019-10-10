@@ -9,14 +9,15 @@ import {withPrefix} from "gatsby-link";
 export default ({children}) => (
     <Background>
         <Helmet
-            title="Jan Schøpp's Website"
+            title="Meyer Taffel - Web Developer & Consultant"
             meta={[
                 {
                     name: 'description',
-                    content: 'Jan Schøpp\'s personal website,' +
-                    ' showcasing education, career, and portfolio'
+                    content: 'Working with you to turn your vision' +
+                    ' into your reality. I will help you focus your' +
+                    ' site\'s message to point to one thing - smiling users'
                 },
-                {name: 'keywords', content: 'Jan, Schøpp'},
+                {name: 'keywords', content: 'meyer, taffel, meyer taffel, web developing, web consulting, freelence developer'},
             ]}
         />
         <Header/>
