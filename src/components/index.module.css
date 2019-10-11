@@ -4,7 +4,8 @@
 }
 
 :global(.mainLogo){
-    background-image: url('https://en.gravatar.com/userimage/128548950/67457155631d006e64b3d7c809164997.png?size=200');
+    background-image: url('../images/meyer_logo.jpg');
+    box-shadow: 0px 0px 2px 0px #004e93;
 }
 
 .pages {

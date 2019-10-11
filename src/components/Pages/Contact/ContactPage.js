@@ -9,9 +9,9 @@ class ContactPage extends React.Component {
             <div className={styles.page}>
                 <CardPage title={"Get in touch!"} width={800}>
                     <div className={styles.info}>
-                        <CardInfo title={"Gmail"} text={"jgschoepp"}/>
+                        <CardInfo title={"Message me on Gmail"} text={"meyertaffelwebsolutions"}/>
                         <CardInfo title={"Call my cell"}
-                                  text={"+47 480 20 857"}/>
+                                  text={"404-946-3390"}/>
                     </div>
                 </CardPage>
             </div>

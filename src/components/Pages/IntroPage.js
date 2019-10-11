@@ -9,18 +9,20 @@ const IntroPage = () => (
 
         <MainLogo size={200}/>
 
-        <SVGText text="Jan Schøpp"/>
+        <SVGText text="Meyer Taffel"/>
 
-        <h2>Full Stack Developer based in Oslo, Norway</h2>
+        <h2>Freelance Web Developer &#38; Consultant </h2>
         
         <div className={style.buttons}>
             <BorderedButton
-                href="https://www.linkedin.com/in/jangschoepp/"
-                name="Career"
+                href="https://www.upwork.com/o/profiles/users/_~012490bacb843285d0/"
+                target="_blank"
+                name="UpWork"
             />
             <BorderedButton
-                href="https://github.com/jangerhard"
-                name="Code"
+                href="https://www.linkedin.com/in/mftaff/"
+                target="_blank"
+                name="LinkedIn"
             />
         </div>
     </div>

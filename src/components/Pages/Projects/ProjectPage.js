@@ -1,14 +1,13 @@
 import React from "react";
 import styles from './ProjectPage.module.css'
 import ProjectShowcase from "./ProjectShowcase";
-import websitePic from "../../../images/personalWebsite.png";
-import wallWatchPic from "../../../images/WalletWatcher.png";
-import quizMasterPic from "../../../images/quizMasterSmall.png";
-import TutorsPic from "../../../images/TutorsScreenshot.png";
-import appdockPic from "../../../images/appdock.png";
-import githubShowcasePic from "../../../images/githubshowcase.png";
-import ArcPic from "../../../images/arc2.jpg";
-
+import websitePic from "../../../images/meyertaffel_site_snapshot.png";
+import actsWebsite from "../../../images/ACTS_site.png";
+import wekkaWebsite from "../../../images/wekka_site.png";
+import wekkaForm from "../../../images/wekka_form.png";
+import wekkaCRM from "../../../images/wekka_crm.png";
+import comingSoon from "../../../images/coming_soon.png";
+import activeProject from "../../../images/active_project.png";
 
 class ProjectPage extends React.Component {
     render() {
@@ -16,62 +15,53 @@ class ProjectPage extends React.Component {
             <div className={styles.projects}>
                 <div className={styles.grid}>
                     <ProjectShowcase
+                        title={"Wekka.co"}
+                        tools={"Rails, Jquery, Bootstrap, Postgres"}
+                        image={wekkaWebsite}
+                        shortDesc={"Online recruitment platform for digital marketers."}
+                        url={"https://wekka-staging.herokuapp.com"}
+                    />
+                    <ProjectShowcase
+                        title={"Interactive CRM"}
+                        tools={"Ruby on Rails, Jquery UI, Bootstrap"}
+                        image={wekkaCRM}
+                        shortDesc={"Interactive Customer Relations Manager for applicant tracking."}
+                        url={"https://wekka-staging.herokuapp.com"}
+                    />
+                    <ProjectShowcase
+                        title={"ACTS International"}
+                        tools={"Wix"}
+                        image={actsWebsite}
+                        shortDesc={"NonProfit's web presence."}
+                        url={"https://africanteams.wixsite.com/acts-international"}
+                    />
+                    <ProjectShowcase
+                        title={"Node.js project"}
+                        tools={"Node.js, React"}
+                        image={activeProject}
+                        shortDesc={"Showcasing latest tech trends."}
+                        url={"/projects"}
+                    />
+                    <ProjectShowcase
                         title={"Personal Website"}
-                        tools={"React, Gatsby"}
+                        tools={"Dev Ops - React, Gatsby"}
                         image={websitePic}
-                        shortDesc={"Education and Projects Showcase"}
-                        url={"https://github.com/jangerhard/PersonalGatsbyWebsite"}
+                        shortDesc={"Personal Website build using the power of Dev Ops and Open Source."}
+                        url={"https://github.com/mftaff/meyertaffel"}
                     />
                     <ProjectShowcase
-                        title={"WalletWatcher"}
-                        tools={"Java (Android)"}
-                        shortDesc={"App tracking scanned Bitcoin addresses' transactions"}
-                        image={wallWatchPic}
-                        url={"https://play.google.com/store/apps/details?id=io.github.jangerhard.BitcoinWalletTracker"}
-                        code={"https://github.com/jangerhard/BitcoinWalletTracker"}
+                        title={"OrphansUganda"}
+                        tools={"Wix"}
+                        image={activeProject}
+                        shortDesc={"Opening doors for Ugandan orphans to be educated."}
+                        url={"/projects"}
                     />
                     <ProjectShowcase
-                        title={"Github Showcase"}
-                        tools={"React, GraphQL"}
-                        shortDesc={"React component showcasing latest Github" +
-                        " activity"}
-                        image={githubShowcasePic}
-                        url={"https://github.com/jangerhard/react-github-showcase#readme"}
-                        code={"https://github.com/jangerhard/react-github-showcase"}
-                    />
-                    <ProjectShowcase
-                        title={"QuizMaster"}
-                        tools={"Node.js, Firebase, Twilio"}
-                        location={"New York City, USA"}
-                        shortDesc={"Cellphone-based Trivia Game targeting areas without WIFI"}
-                        image={quizMasterPic}
-                        url={"http://jangerhard-node.herokuapp.com/twiliopart2"}
-                        code={"https://github.com/jangerhard/TwilioEducation"}
-
-                    />
-                    <ProjectShowcase
-                        title={"AppliCafe"}
-                        tools={"Java (Android), Firebase"}
-                        location={"New York City, USA"}
-                        shortDesc={"Technology outreach project targeting Senegal"}
-                        image={appdockPic}
-                        url={"http://mobilesenegal.org/applicafe/"}
-                    />
-                    <ProjectShowcase
-                        title={"NOMO3D: The Arc"}
-                        tools={"Java (Android), Bluetooth Low Energy, Arduino"}
-                        location={"Helsinki, Finland"}
-                        shortDesc={"Interface Controlling a mobile 3D Scanner"}
-                        image={ArcPic}
-                        url={"http://nomo3d.com/"}
-                    />
-                    <ProjectShowcase
-                        title={"NeedTutor"}
-                        tools={"Java (Android), Bluetooth Low Energy"}
-                        shortDesc={"App utilizing beacons to locate nearby available tutors"}
-                        image={TutorsPic}
-                        url={"https://play.google.com/store/apps/details?id=com.pacemobilelab.TutorsAtSeidenberg&hl=en"}
-                        code={"https://github.com/paceuniversity/pacemobilelab/tree/master/Tutor"}
+                        title={"Sign Up Form"}
+                        tools={"Ruby on Rails, Jquery, Bootstrap"}
+                        image={wekkaForm}
+                        shortDesc={"Collect the data you need without overwhelming your user."}
+                        url={"https://wekka-staging.herokuapp.com"}
                     />
                 </div>
             </div>

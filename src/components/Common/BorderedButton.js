@@ -2,11 +2,11 @@ import React from 'react'
 import style from './BorderedButton.module.css'
 import Link from 'gatsby-link';
 
-const BorderedButton = ({href, to, name}) => {
+const BorderedButton = ({href, to, target, name}) => {
 
     if (to != null) {
         return (
-            <Link to={to} className={style.largeButton} data-ripple="true">
+            <Link to={to} target={target} className={style.largeButton} data-ripple="true">
                 <h3 className={style.text}>
                     {name}
                 </h3>
@@ -14,7 +14,7 @@ const BorderedButton = ({href, to, name}) => {
         );
     } else {
         return (
-            <a href={href} className={style.largeButton} data-ripple="true">
+            <a href={href} target={target} className={style.largeButton} data-ripple="true">
                 <h3 className={style.text}>
                     {name}
                 </h3>
