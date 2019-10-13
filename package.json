@@ -30,9 +30,11 @@
     "develop": "gatsby develop --host localhost",
     "cloud9": "gatsby develop --host 0.0.0.0 --https",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:github": "npm run build && node ./scripts/deploy-github"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "prettier": "^1.18.2"
   }
 }
