@@ -1,3 +1,16 @@
-.card_info{
-    margin-top: 38px;
+.title {
+    margin-bottom: 0;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.choice1, .choice2, .choice3 {
+    margin-bottom: 0;
+    font-size: 0.95em;
+}
+
+.choice3 {
+    margin-bottom: 1.666rem;;
 }

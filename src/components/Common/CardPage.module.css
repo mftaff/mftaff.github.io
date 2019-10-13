@@ -1,5 +1,8 @@
 .display1 {
     font-weight: 400;
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 27px;
 }
 
 .card {
@@ -22,9 +25,8 @@
 
 .card_top {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     -webkit-box-pack: center;
-    text-align: center;
 }
 
 .card_image {
