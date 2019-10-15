@@ -19,6 +19,13 @@ export default ({children}) => (
                 },
                 {name: 'keywords', content: 'meyer, taffel, meyer taffel, web developing, web consulting, freelence developer'},
             ]}
+            link={[
+                {
+                    "rel": "icon",
+                    "type": "image/png",
+                     "href": require("../images/favicon.png")
+                }
+            ]}
         />
         <Header/>
 
