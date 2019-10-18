@@ -8,8 +8,8 @@ class ContactPage extends React.Component {
     render() {
         return (
             <div className={styles.page}>
-                <CardPage title={"\"The aim? One purpose, a clear message, and your user." +
-                    " Let's iterate.\""
+                <CardPage title={"The aim? Engagement, Simplicity, and Focus for your user." +
+                    " Let's iterate."
                     } width={800}>
                     <div className={styles.info}>
                         <CardInfo title={"Need a problem solved?"}
