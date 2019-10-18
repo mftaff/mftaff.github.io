@@ -4,10 +4,10 @@
 }
 
 .text {
-    fill: #F0F8FF;
+    fill: #f8fffa;
     font-size: 50px;
     font-weight: 300;
-    stroke: #F0F8FF;
+    stroke: #f8fffa;
     stroke-linecap: butt;
     stroke-linejoin: miter;
     stroke-width: 1;
