@@ -1,18 +1,10 @@
 # Meyer Taffel - Web Developer & Consultant
-You are ready to build your dream or maybe you have a project that needs polishing. You need someone who is skilled, who will take initiative, and most importantly, who will deliver quality.
+Formerly the Director of R&D at Wekka, I planned, built, managed, and scaled the Wekka platform. My experience includes designing sites with a UX first approach, developing smart matching algorithms, and consulting with clients to help them identify and close gaps in their user engagement.
 
-I am this person.
+My design philosophy comes straight out of Tel Aviv - Keep it clean, keep it focused, keep it engaging. This is partly achieved by simplifying what the user sees, and partly by designing ample back-end complexity to power a smooth experience. This technique can be applied to any project at any scale, and it's implementation will increase your user acquisition and retention.
 
-As the Director of R&D at Wekka (Dec '17 - April '19) I bring with me a wealth of knowledge on how to make your website stand out. It's no longer good enough to just slap together a landing page, add some sleek graphics, and write a concise value proposition. To really stand apart from your competition, your website needs to be the embodiment of a unified message. One that encompasses design, branding, growth strategy, transparency, user engagement, and technical savvy.
+Whether your project is large or small, I have the ability to get the job done.
+Live Site: https://meyertaffel.com
 
-My service to you will achieve this goal in 2 steps:
-Step One - Help you develop/polish your focused vision and unifying purpose.
-Step Two - Build/Polish your website so it is the embodiment of that unified purpose.
-
-These 2 simple steps are the same for your new project being launched, and your active project needing polishing. The fact is quality results are built on clear purpose. This is the secret that creates great websites. Working with you, I will help you develop your vision and then integrate it into your website. The result will be a website that captivates your customers.
-
-I want to make your project glow and I have knowledge to share - reach out to me!
-Site: https://meyertaffel.com
-Email: meyertaffelwebsolutions@gmail.com
 
 sourced from: https://github.com/jangerhard/PersonalGatsbyWebsite
