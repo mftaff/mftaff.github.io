@@ -8,6 +8,14 @@
     color: #fafafa;
 }
 
+.tagline Span {
+    display: inline-block;
+}
+
+.tagline .spacer {
+    padding: 0 6px;
+}
+
 @media screen and (min-width : 1024px) {
     .layout {
         padding-top: 0;

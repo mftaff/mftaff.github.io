@@ -11,18 +11,18 @@ const IntroPage = () => (
 
         <SVGText text="Meyer Taffel"/>
 
-        <h2>Freelance Web Developer &#38; Consultant </h2>
+        <h2 className={style.tagline}>
+            <span>Startup Founder</span>
+            <span className={style.spacer}> - </span>
+            <span>African Educator</span>
+            <span className={style.spacer}> - </span>
+            <span>Awesome Tutor</span>
+        </h2>
         
         <div className={style.buttons}>
             <BorderedButton
-                href="https://www.upwork.com/o/profiles/users/_~012490bacb843285d0/"
-                target="_blank"
-                name="UpWork"
-            />
-            <BorderedButton
-                href="https://www.linkedin.com/in/mftaff/"
-                target="_blank"
-                name="LinkedIn"
+                to="/pursuits/"
+                name="Current Pursuits"
             />
         </div>
     </div>

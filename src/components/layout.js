@@ -9,15 +9,15 @@ import {withPrefix} from "gatsby-link";
 export default ({children}) => (
     <Background>
         <Helmet
-            title="Meyer Taffel - Web Developer & Consultant"
+            title="Meyer Taffel - Physics Major | African Educator | Awesome Tutor"
             meta={[
                 {
                     name: 'description',
-                    content: 'Working with you to turn your vision' +
-                    ' into your reality. I will help you focus your' +
-                    ' site\'s message to point to one thing - smiling users'
+                    content: 'It only takes 10,000 small steps to climb' +
+                    ' a mountain. Make each step a memory and build it' +
+                    ' on the steps that came before.'
                 },
-                {name: 'keywords', content: 'meyer, taffel, meyer taffel, web developing, web consulting, freelence developer'},
+                {name: 'keywords', content: 'meyer, taffel, meyer taffel, coding, mentor, tutor, coding mentor, education, equality, opportunity'},
             ]}
             link={[
                 {
