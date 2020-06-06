@@ -5,10 +5,10 @@ import styles from './SchoolShowcase.module.css'
 class SchoolShowcase extends React.Component {
     render() {
         return (
-            <div className={styles.container}>
+            <a className={styles.container} href={this.props.url} target={this.props.target}>
                 <div className={styles.date}>
                     <span className={styles.year}>{this.props.year}</span>
-                    <span className={styles.month}>{this.props.month}</span>
+                    <span className={styles.status}>{this.props.status}</span>
                 </div>
                 <img className={styles.uniLogo}
                      src={this.props.imgSrc}/>
@@ -24,7 +24,7 @@ class SchoolShowcase extends React.Component {
                     {this.props.gpa &&
                     <div className={styles.uniGPA}>GPA: {this.props.gpa}</div>}
                 </div>
-            </div>
+            </a>
         )
     }
 }
@@ -33,9 +33,11 @@ SchoolShowcase.propTypes = {
     name: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
-    year: PropTypes.number.isRequired,
-    month: PropTypes.string,
-    gpa: PropTypes.number,
+    year: PropTypes.string.isRequired,
+    status: PropTypes.string,
+    gpa: PropTypes.string,
+    url: PropTypes.string,
+    target: PropTypes.string,
     imgSrc: PropTypes.string
 };
 
