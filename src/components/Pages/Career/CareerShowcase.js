@@ -2,39 +2,31 @@ import React from "react";
 import PropTypes from 'prop-types'
 import styles from './CareerShowcase.module.css'
 
-import GithubIcon from 'react-icons/lib/fa/github'
-import InfoIcon from 'react-icons/lib/fa/info-circle'
-
 class CareerShowcase extends React.Component {
     render() {
         return (
-            <a className={styles.container} href={this.props.url}>
+            <a
+                className={styles.container}
+                href={this.props.url}
+                target={this.props.target}
+                onMouseEnter={this.props.hoverOn}
+                onMouseLeave={this.props.hoverOff}
+            >
                 <h3 className={styles.title}>{this.props.title}</h3>
                 <hr className={styles.break}/>
-                <div className={styles.tools}>
-                    {this.props.tools}
-                </div>
+                <div className={styles.company}>{this.props.company}</div>
+                <div className={styles.dates}>{this.props.dates}</div>
 
                 {this.props.image &&
-                <img className={styles.image} src={this.props.image}/>
-                }
-                {false &&
-                <div className={styles.icons}>
-                    {this.props.code &&
-                    <a className={styles.button} href={this.props.code}>
-                        <GithubIcon/>
-                    </a>
-                    }
-                    {this.props.url &&
-                    <a className={styles.button} href={this.props.url}>
-                        <InfoIcon/>
-                    </a>
-                    }
-                </div>
+                <img className={[ styles.image, styles[this.props.hovering ? "hidden" : "unhidden"] ].join(' ')} src={this.props.image}/>
                 }
 
-                <div className={styles.desc}>
+                <div className={[ styles.desc, styles[this.props.hovering ? "hidden" : "unhidden"] ].join(' ')}>
                     {this.props.shortDesc}
+                </div>
+
+                <div className={[ styles.roleDesc, styles[this.props.hovering ? "unhidden" : "hidden"] ].join(' ')}>
+                    {this.props.roleDesc}
                 </div>
             </a>
         )
@@ -42,13 +34,15 @@ class CareerShowcase extends React.Component {
 }
 
 CareerShowcase.propTypes = {
-    title: PropTypes.string.isRequired,
-    tools: PropTypes.string.isRequired,
+    title: PropTypes.object.isRequired,
+    company: PropTypes.string.isRequired,
+    dates: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
     shortDesc: PropTypes.string,
-    location: PropTypes.string,
+    roleDesc: PropTypes.object,
     url: PropTypes.string,
-    code: PropTypes.string
+    target: PropTypes.string,
+    hovering: PropTypes.bool.isRequired
 };
 
 export default CareerShowcase;

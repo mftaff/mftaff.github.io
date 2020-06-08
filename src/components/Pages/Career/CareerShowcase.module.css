@@ -5,7 +5,8 @@
 
   color: #484848;
   text-decoration: none;
-  width: 325px;
+  width: 360px;
+  min-height: 654px;
   margin: 8px;
   padding: 32px;
   background: #fafafa;
@@ -26,8 +27,16 @@
   color: #465E84;
 }
 
+.title span {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
 .desc {
-  padding-top: 5px;
+  text-align: start;
+}
+
+.roleDesc {
   text-align: start;
 }
 
@@ -38,9 +47,15 @@
   background: #e2db21;
 }
 
-.tools {
+.company {
   color: #465E84;
-  font-size: 16px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.dates {
+  color: grey;
+  font-size: 12px;
   font-style: italic;
 }
 
@@ -63,11 +78,41 @@
 }
 
 .image {
+  height: 175px;
   margin: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 3px 0px #c9c9c9;
+}
+
+.hidden {
+  display: none;
+}
+
+.unhidden {
+  animation: fadein 800ms;
+}
+
+/* Show responsibilities only when in touchscreen mode */
+@media screen and (max-width: 800px) {
+  .image, .desc {
+    display: none !important;
+  }
+  .roleDesc {
+    display: inline-block !important;
+  }
 }
 
 @supports (justify-content: space-evenly) {
   .icons {
       justify-content: space-evenly;
+  }
+}
+
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
   }
 }
