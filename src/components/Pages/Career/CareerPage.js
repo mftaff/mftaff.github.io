@@ -36,10 +36,11 @@ class CareerPage extends React.Component {
                         dates={"Dec 2017 - Mar 2019"}
                         image={wekkaSite}
                         shortDesc={
-                            "Wekka was a digital marketer recruiting platform." +
-                            " Using smart matching and video resumes, Wekka" +
-                            " provided digital marketers the online presence" +
-                            " they wanted during their job search."}
+                            "Wekka was a digital marketer recruitment platform." +
+                            " Using smart matching algorithms and an intuitive" +
+                            " hiring UI, Wekka took the friction out of recruitment." +
+                            " Wekka also provided digital marketers a sharp canvas with" +
+                            " which to highlight their talents."}
                         roleDesc={
                             <div className={styles.roleDesc}>
                                 <p>Founder Responsibilities:</p>
@@ -75,7 +76,9 @@ class CareerPage extends React.Component {
                         shortDesc={
                             "Bearface Media is a tech firm that utilizes modern" + 
                             " intuitive design and cloud based infrastructure to" +
-                            " build custom-fit web applications."}
+                            " build custom-fit software solutions. From customer-facing" +
+                            " web apps to internal scheduling tools, Bearface Media" +
+                            " specializes in delivering quality solutions."}
                         roleDesc={
                             <div className={styles.roleDesc}>
                                 <p>Responsibilities:</p>
