@@ -8,20 +8,17 @@ class ContactPage extends React.Component {
     render() {
         return (
             <div className={styles.page}>
-                <CardPage title={"The aim? Engagement, Simplicity, and Focus for your user." +
-                    " Let's iterate."
+                <CardPage title={"My current and past pursuits allow me to excel as a coding mentor."
                     } width={800}>
                     <div className={styles.info}>
-                        <CardInfo title={"Need a problem solved?"}
-                            text={"For an even sharper reply, include an answer to one of" +
-                            " these questions:"}
-                            choice1={"1) What is your website's purpose? How does it mesh" +
-                            " with your vision?"}
-                            choice2={"2) What feelings should your users experience? Be" +
-                            " descriptive! Use your stage voice :-)"}
-                            choice3={"3) Dream or Nightmare? Describe an experience you" +
-                            " had working with a developer."}/>
-                        <ContactInfo title={"Put it all together and reach out:"}
+                        <CardInfo text={"3 reasons I'm the right choice for you:"}
+                            choice1={"1) I led R&D at an Israeli startup shortly after" + 
+                            " graduating an online coding school. Sharing this" +
+                            " experience with students will demonstrate what is possible."}
+                            choice2={"2) I responded to the Covid-19 shutdown by creating" +
+                            " and leading an online study group with 15+ members."}
+                            choice3={"3) I run an education project in Bududa Uganda. My passion for teaching others is what fuels me everyday."}/>
+                        <ContactInfo title={"I'd love to share more! Reach out:"}
                             email={"meyertaffelwebsolutions@gmail.com"}
                             phone={"404-946-3390"}/>
                     </div>

@@ -13,7 +13,7 @@ const CardInfo = ({title, text, choice1, choice2, choice3}) => (
 );
 
 CardInfo.propTypes = {
-    title: PropTypes.string.isRequired,
+    title: PropTypes.string,
     text: PropTypes.string.isRequired,
     choice1: PropTypes.string.isRequired,
     choice2: PropTypes.string.isRequired,
