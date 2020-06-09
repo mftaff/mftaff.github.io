@@ -43,7 +43,7 @@ class PursuitShowcase extends React.Component {
 
 PursuitShowcase.propTypes = {
     title: PropTypes.string.isRequired,
-    tools: PropTypes.string.isRequired,
+    tools: PropTypes.string,
     image: PropTypes.string.isRequired,
     shortDesc: PropTypes.string,
     location: PropTypes.string,
