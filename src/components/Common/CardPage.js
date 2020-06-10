@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React, {Component} from "react";
 import styles from './CardPage.module.css';
 
-const CardPage = ({title, imgLink, text, width, children}) => (
+const CardPage = ({title, imgLink, text, children}) => (
     <div className={styles.card}>
         {title &&
         <div>

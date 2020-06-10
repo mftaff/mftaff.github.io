@@ -30,6 +30,7 @@ export default ({children}) => (
         <Header/>
 
         <div className={styles.pages}>
+            {console.log("sourced from: https://github.com/jangerhard/PersonalGatsbyWebsite")}
             {children}
         </div>
     </Background>
