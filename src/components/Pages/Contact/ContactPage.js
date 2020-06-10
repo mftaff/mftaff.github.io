@@ -9,7 +9,7 @@ class ContactPage extends React.Component {
         return (
             <div className={styles.page}>
                 <CardPage title={"2+ years coding experience plus demonstrated success in a mentor role."
-                    } width={800}>
+                    }>
                     <div className={styles.info}>
                         <CardInfo text={"3 reasons I'm the right choice for you:"}
                             choice1={"1) I led R&D at an Israeli startup shortly after" + 

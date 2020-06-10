@@ -12,7 +12,7 @@ import physicsPhoto from "../../../images/pursuits/physics.jpg";
 class PursuitsPage extends React.Component {
     render() {
         return (
-            <div className={styles.projects}>
+            <div className={styles.page}>
                 <div className={styles.grid}>
                     <PursuitShowcase
                         title={"Physics Major"}

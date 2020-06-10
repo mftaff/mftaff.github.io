@@ -3,10 +3,7 @@ import React, {Component} from "react";
 import styles from './CardPage.module.css';
 
 const CardPage = ({title, imgLink, text, width, children}) => (
-    <div className={styles.card}
-         style={{
-             width: width
-         }}>
+    <div className={styles.card}>
         {title &&
         <div>
             <div className={styles.card_top}>
