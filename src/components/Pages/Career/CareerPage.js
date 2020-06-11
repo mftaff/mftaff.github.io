@@ -86,7 +86,7 @@ class CareerPage extends React.Component {
                                     <li>Worked with clients to customize their UI for specific needs.</li>
                                     <li>Developed the online scheduling component of BearFace’s app suite.</li>
                                     <li>Developed the quote generating component of BearFace’s app suite.</li>
-                                    <li>Updated old source code to bring it inline with modern best-practices.</li>
+                                    <li>Updated old source code to bring it in-line with modern best-practices.</li>
                                 </ul>
                             </div>
                         }
