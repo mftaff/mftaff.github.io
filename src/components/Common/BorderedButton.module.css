@@ -15,3 +15,8 @@
     margin: 10px;
     min-width: 170px;
 }
+
+.largeButton:hover {
+    color: #DCE3E7;
+    border: 2px solid #DCE3E7;
+}

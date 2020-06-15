@@ -1,10 +1,10 @@
 import React from 'react'
-import CareerShowcase from "../components/Pages/Contact/ContactPage";
+import ConnectShowcase from "../components/Pages/Connect/ConnectPage";
 import Layout from '../components/layout';
 
 export default () => (
     <Layout>
-        <CareerShowcase/>
+        <ConnectShowcase/>
     </Layout>
 
 );

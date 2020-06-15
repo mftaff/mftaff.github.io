@@ -1,10 +1,12 @@
 import React from "react";
-import styles from './ContactPage.module.css'
+import styles from './ConnectPage.module.css'
 import CardPage from "../../Common/CardPage";
 import CardInfo from "../../Common/CardInfo";
-import ContactInfo from "../../Common/ContactInfo";
+import ConnectInfo from "../../Common/ConnectInfo";
 
-class ContactPage extends React.Component {
+import LinkedinIcon from "react-icons/lib/fa/linkedin-square";
+
+class ConnectPage extends React.Component {
     render() {
         return (
             <div className={styles.page}>
@@ -21,9 +23,11 @@ class ContactPage extends React.Component {
                             choice3={"3) I run a mentor-based education project in Bududa Uganda. Seeing" +
                             " the smiling faces of african kids thriving is forever heartwarming. My" +
                             " passion for bringing out the best in others is what fuels me everyday."}/>
-                        <ContactInfo title={"I'd love to share more! Reach out:"}
+                        <ConnectInfo title={"I'd love to share more! Reach out:"}
                             email={"meyertaffel@gmail.com"}
-                            phone={"404-946-3390"}/>
+                            phone={"404-946-3390"}
+                            social={<LinkedinIcon />}
+                            socialUrl={"https://www.linkedin.com/in/mftaff/"}/>
                     </div>
                 </CardPage>
             </div>
@@ -31,6 +35,6 @@ class ContactPage extends React.Component {
     }
 }
 
-ContactPage.propTypes = {};
+ConnectPage.propTypes = {};
 
-export default ContactPage;
+export default ConnectPage;

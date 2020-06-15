@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './PursuitsPage.module.css';
 import PursuitShowcase from './PursuitShowcase';
-import activeProject from "../../../images/active_project.png";
 import actProudAfricaPhoto from "../../../images/pursuits/actProudAfrica.jpg";
 import assistantshipPhoto from "../../../images/pursuits/assistantship.jpg";
 import musicianPhoto from "../../../images/pursuits/musician.jpeg";
@@ -18,37 +17,37 @@ class PursuitsPage extends React.Component {
                         title={"Physics Major"}
                         image={physicsPhoto}
                         shortDesc={"Collates my interest in clean water/solar technologies, space exploration, and quantum computing."}
-                        url={"/"}
+                        url={"/pursuits/"}
                     />
                     <PursuitShowcase
                         title={"Class Tutor"}
                         image={tutorPhoto}
                         shortDesc={"My response to Coronavirus shutting down GSU? Creating and teaching an online class of 25+"}
-                        url={"/"}
+                        url={"/pursuits/"}
                     />
                     <PursuitShowcase
                         title={"Act Proud Africa"}
                         image={actProudAfricaPhoto}
                         shortDesc={"My initative to pair young Africans with inspirational mentors."}
-                        url={"/"}
+                        url={"/pursuits/"}
                     />
                     <PursuitShowcase
                         title={"GSU Assistantship Program"}
                         image={assistantshipPhoto}
                         shortDesc={"Working to highlight GSU Perimeter's history as a place of opportunity for all."}
-                        url={"/"}
+                        url={"/pursuits/"}
                     />
                     <PursuitShowcase
-                        title={"Self-Taught Musician"}
+                        title={"Musician"}
                         image={musicianPhoto}
                         shortDesc={"Music connects us and inspires us to shine. It uplifts us and motivates us to soar."}
-                        url={"/"}
+                        url={"/pursuits/"}
                     />
                     <PursuitShowcase
                         title={"Tree Climbing Enthusiast"}
                         image={treeClimbingPhoto}
                         shortDesc={"What better way is there to stay fit and appreciate nature than to hang out in the treetops?"}
-                        url={"/"}
+                        url={"/pursuits/"}
                     />
                 </div>
             </div>

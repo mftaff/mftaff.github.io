@@ -1,19 +1,21 @@
 import React from "react";
 import PropTypes from 'prop-types'
-import styles from './ContactInfo.module.css'
+import styles from './ConnectInfo.module.css'
 
-const ContactInfo = ({title, email, phone}) => (
+const ConnectInfo = ({title, email, phone, social, socialUrl}) => (
   <div>
       <p className={styles.title} >{title}</p>
       <p className={styles.email} >{email}</p>
       <p>{phone}</p>
+      <a className={styles.social} href={socialUrl} target={"_blank"} >{social}</a>
   </div>
 );
 
-ContactInfo.propTypes = {
+ConnectInfo.propTypes = {
   title: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
   phone: PropTypes.string.isRequired,
+  socialUrl: PropTypes.string
 };
 
-export default ContactInfo;
+export default ConnectInfo;

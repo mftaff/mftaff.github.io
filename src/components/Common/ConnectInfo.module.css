@@ -7,3 +7,10 @@
 .email {
   margin-bottom: 0;
 }
+
+.social {
+  float: right;
+  font-size: 1.3em;
+  margin-top: -40px;
+  color: #0077b5;
+}
