@@ -17,37 +17,37 @@ class PursuitsPage extends React.Component {
                         title={"Physics Major"}
                         image={physicsPhoto}
                         shortDesc={"Collates my interest in clean water/solar technologies, space exploration, and quantum computing."}
-                        url={"/pursuits/"}
+                        url={"/pursuits/physics"}
                     />
                     <PursuitShowcase
                         title={"Class Tutor"}
                         image={tutorPhoto}
                         shortDesc={"My response to Coronavirus shutting down GSU? Creating and teaching an online class of 25+"}
-                        url={"/pursuits/"}
+                        url={"/pursuits/tutor"}
                     />
                     <PursuitShowcase
                         title={"Act Proud Africa"}
                         image={actProudAfricaPhoto}
                         shortDesc={"My initative to pair young Africans with inspirational mentors."}
-                        url={"/pursuits/"}
+                        url={"/pursuits/africa"}
                     />
                     <PursuitShowcase
                         title={"GSU Assistantship Program"}
                         image={assistantshipPhoto}
                         shortDesc={"Working to highlight GSU Perimeter's history as a place of opportunity for all."}
-                        url={"/pursuits/"}
+                        url={"/pursuits/research"}
                     />
                     <PursuitShowcase
                         title={"Musician"}
                         image={musicianPhoto}
                         shortDesc={"Music connects us and inspires us to shine. It uplifts us and motivates us to soar."}
-                        url={"/pursuits/"}
+                        url={"/pursuits/music"}
                     />
                     <PursuitShowcase
                         title={"Tree Climbing Enthusiast"}
                         image={treeClimbingPhoto}
                         shortDesc={"What better way is there to stay fit and appreciate nature than to hang out in the treetops?"}
-                        url={"/pursuits/"}
+                        url={"/pursuits/climbing"}
                     />
                 </div>
             </div>

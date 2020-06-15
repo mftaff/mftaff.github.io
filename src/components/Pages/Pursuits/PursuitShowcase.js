@@ -1,14 +1,12 @@
 import React from "react";
-import PropTypes from 'prop-types'
-import styles from './PursuitShowcase.module.css'
-
-import GithubIcon from 'react-icons/lib/fa/github'
-import InfoIcon from 'react-icons/lib/fa/info-circle'
+import PropTypes from 'prop-types';
+import Link from 'gatsby-link';
+import styles from './PursuitShowcase.module.css';
 
 class PursuitShowcase extends React.Component {
     render() {
         return (
-            <a className={styles.container} href={this.props.url}>
+            <Link className={styles.container} to={this.props.url} data-ripple="true">
                 <h3 className={styles.title}>{this.props.title}</h3>
                 <hr className={styles.break}/>
                 <div className={styles.tools}>
@@ -18,25 +16,11 @@ class PursuitShowcase extends React.Component {
                 {this.props.image &&
                 <img className={styles.image} src={this.props.image} alt={""}/>
                 }
-                {false &&
-                <div className={styles.icons}>
-                    {this.props.code &&
-                    <a className={styles.button} href={this.props.code}>
-                        <GithubIcon/>
-                    </a>
-                    }
-                    {this.props.url &&
-                    <a className={styles.button} href={this.props.url}>
-                        <InfoIcon/>
-                    </a>
-                    }
-                </div>
-                }
 
                 <div className={styles.desc}>
                     {this.props.shortDesc}
                 </div>
-            </a>
+            </Link>
         )
     }
 }
@@ -47,7 +31,7 @@ PursuitShowcase.propTypes = {
     image: PropTypes.string.isRequired,
     shortDesc: PropTypes.string,
     location: PropTypes.string,
-    url: PropTypes.string,
+    url: PropTypes.string.isRequired,
     code: PropTypes.string
 };
 
