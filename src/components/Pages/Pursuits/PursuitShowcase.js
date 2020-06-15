@@ -16,7 +16,7 @@ class PursuitShowcase extends React.Component {
                 </div>
 
                 {this.props.image &&
-                <img className={styles.image} src={this.props.image}/>
+                <img className={styles.image} src={this.props.image} alt={""}/>
                 }
                 {false &&
                 <div className={styles.icons}>

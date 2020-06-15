@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import React, {Component} from "react";
+import React from "react";
 import styles from './CardPage.module.css';
 
 const CardPage = ({title, imgLink, text, children}) => (
@@ -18,7 +18,8 @@ const CardPage = ({title, imgLink, text, children}) => (
         {imgLink &&
         <div className={styles.card_image}>
             <img className={styles.img}
-                 src={imgLink}/>
+                 src={imgLink}
+                 alt={""}/>
         </div>
         }
         {children}

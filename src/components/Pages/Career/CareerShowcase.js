@@ -18,7 +18,7 @@ class CareerShowcase extends React.Component {
                 <div className={styles.dates}>{this.props.dates}</div>
 
                 {this.props.image &&
-                <img className={[ styles.image, styles[this.props.hovering ? "hidden" : "unhidden"] ].join(' ')} src={this.props.image}/>
+                <img className={[ styles.image, styles[this.props.hovering ? "hidden" : "unhidden"] ].join(' ')} src={this.props.image} alt={""}/>
                 }
 
                 <div className={[ styles.desc, styles[this.props.hovering ? "hidden" : "unhidden"] ].join(' ')}>

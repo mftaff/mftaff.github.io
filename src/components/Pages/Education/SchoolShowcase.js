@@ -11,7 +11,8 @@ class SchoolShowcase extends React.Component {
                     <span className={styles.status}>{this.props.status}</span>
                 </div>
                 <img className={styles.uniLogo}
-                     src={this.props.imgSrc}/>
+                     src={this.props.imgSrc}
+                     alt={""}/>
                 <div className={styles.infoWrapper}>
                     <div className={styles.uniName}>
                         {this.props.name}
