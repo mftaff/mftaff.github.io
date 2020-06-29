@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './PursuitsPage.module.css';
 import PursuitShowcase from './PursuitShowcase';
 import actProudAfricaPhoto from "../../../images/pursuits/actProudAfrica.jpg";
-import assistantshipPhoto from "../../../images/pursuits/assistantship.jpg";
+import SILeaderPhoto from "../../../images/pursuits/SILeader.jpg";
 import musicianPhoto from "../../../images/pursuits/musician.jpeg";
 import treeClimbingPhoto from "../../../images/pursuits/treeClimbing.jpeg";
 import tutorPhoto from "../../../images/pursuits/tutor.png";
@@ -32,10 +32,10 @@ class PursuitsPage extends React.Component {
                         url={"/pursuits/africa"}
                     />
                     <PursuitShowcase
-                        title={"GSU Assistantship Program"}
-                        image={assistantshipPhoto}
-                        shortDesc={"Working to highlight GSU Perimeter's history as a place of opportunity for all."}
-                        url={"/pursuits/research"}
+                        title={"GSU SI Leader"}
+                        image={SILeaderPhoto}
+                        shortDesc={"Teaching fellow students through GSU's Supplemental Instructor program."}
+                        url={"/pursuits/supplemental-instructor"}
                     />
                     <PursuitShowcase
                         title={"Musician"}
