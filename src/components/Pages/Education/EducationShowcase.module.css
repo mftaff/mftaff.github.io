@@ -6,7 +6,7 @@
 .grid {
     display: flex;
     flex-direction: row;
-    animation: fadein 400ms;
+    animation: fadein 2s;
 }
 
 @supports (display: grid) {

@@ -89,7 +89,7 @@
 }
 
 .unhidden {
-  animation: fadein 800ms;
+  animation: fadein 3s;
 }
 
 /* Show responsibilities only when in touchscreen mode */
