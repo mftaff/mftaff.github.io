@@ -89,7 +89,11 @@
 }
 
 .unhidden {
-  animation: fadein 3s;
+  animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  -ms-animation : fadein 2s;
 }
 
 /* Show responsibilities only when in touchscreen mode */
