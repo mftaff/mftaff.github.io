@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './PursuitsPage.module.css';
 import PursuitShowcase from './PursuitShowcase';
 import actProudAfricaPhoto from "../../../images/pursuits/actProudAfrica.jpg";
-import SILeaderPhoto from "../../../images/pursuits/SILeader.jpg";
+import freelancePhoto from "../../../images/pursuits/freelancing.png";
 import musicianPhoto from "../../../images/pursuits/musician.jpeg";
 import treeClimbingPhoto from "../../../images/pursuits/treeClimbing.jpeg";
 import tutorPhoto from "../../../images/pursuits/tutor.png";
@@ -20,10 +20,10 @@ class PursuitsPage extends React.Component {
                         url={"/pursuits/physics"}
                     />
                     <PursuitShowcase
-                        title={"Class Tutor"}
-                        image={tutorPhoto}
-                        shortDesc={"My response to Coronavirus shutting down GSU? Creating and teaching an online class of 25+"}
-                        url={"/pursuits/tutor"}
+                        title={"Freelance Web Developer"}
+                        image={freelancePhoto}
+                        shortDesc={"Keeping clients happy with crisp, intuitive, and engaging websites."}
+                        url={"/pursuits/freelancing"}
                     />
                     <PursuitShowcase
                         title={"Act Proud Africa"}
@@ -32,10 +32,10 @@ class PursuitsPage extends React.Component {
                         url={"/pursuits/africa"}
                     />
                     <PursuitShowcase
-                        title={"GSU SI Leader"}
-                        image={SILeaderPhoto}
-                        shortDesc={"Teaching fellow students through GSU's Supplemental Instructor program."}
-                        url={"/pursuits/supplemental-instructor"}
+                        title={"Supplemental Instructor"}
+                        image={tutorPhoto}
+                        shortDesc={"My response to Coronavirus shutting down GSU? Creating and teaching an online class of 25+"}
+                        url={"/pursuits/tutor"}
                     />
                     <PursuitShowcase
                         title={"Musician"}

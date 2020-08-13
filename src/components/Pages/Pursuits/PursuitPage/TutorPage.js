@@ -7,7 +7,7 @@ class TutorPage extends React.Component {
     render() {
         return (
             <div className={styles.page}>
-                <CardPage title={"Class Tutor"}>
+                <CardPage title={"Class Tutor | Supplemental Instructor"}>
                     <div className={styles.grid}>
                         <PursuitInfo title={"Infinite monkeys are drafting this page's content."} />
                     </div>

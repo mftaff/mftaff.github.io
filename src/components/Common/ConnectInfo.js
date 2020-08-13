@@ -2,12 +2,16 @@ import React from "react";
 import PropTypes from 'prop-types'
 import styles from './ConnectInfo.module.css'
 
-const ConnectInfo = ({title, email, phone, social, socialUrl}) => (
+const ConnectInfo = ({title, email, phone, social1, socialUrl1, social2, socialUrl2}) => (
   <div>
       <p className={styles.title} >{title}</p>
-      <p className={styles.email} >{email}</p>
+      <p className={styles.zed} >{email}</p>
       <p>{phone}</p>
-      <a className={styles.social} href={socialUrl} target={"_blank"} >{social}</a>
+
+      <div className={styles.socials}>
+        <a className={styles.upwrk} href={socialUrl1} target={"_blank"} >{social1}</a>
+        <a className={styles.lnkdn} href={socialUrl2} target={"_blank"} >{social2}</a>
+      </div>
   </div>
 );
 
