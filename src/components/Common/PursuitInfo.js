@@ -3,13 +3,16 @@ import PropTypes from 'prop-types';
 import styles from './PursuitInfo.module.css';
 import BorderedButton from '../Common/BorderedButton';
 
-const PursuitInfo = ({title}) => (
+const PursuitInfo = ({heading, body, closer}) => (
   <div>
-    {/* <p className={styles.title} >{title}</p> */}
-    <p className={styles.title} >
+    <p className={styles.heading} >{heading}</p>
+    <p className={styles.body} >{body}</p>
+    <p className={styles.closer} >{closer}</p>
+
+    <p className={styles.monkeys} >
       {
         (Math.floor(Math.random() * (Math.floor(1392110) - Math.ceil(48764))) + Math.ceil(48764)).toLocaleString() +
-        " typewriter-wielding monkeys are drafting this page's content."
+        " typewriter-wielding monkeys helped draft this page's content."
       }
     </p>
     <div className={styles.buttons}>
