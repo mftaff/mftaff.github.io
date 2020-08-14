@@ -9,9 +9,6 @@ class PursuitShowcase extends React.Component {
             <Link className={styles.container} to={this.props.url} data-ripple="true">
                 <h3 className={styles.title}>{this.props.title}</h3>
                 <hr className={styles.break}/>
-                <div className={styles.tools}>
-                    {this.props.tools}
-                </div>
 
                 {this.props.image &&
                 <img className={styles.image} src={this.props.image} alt={""}/>
@@ -19,6 +16,9 @@ class PursuitShowcase extends React.Component {
 
                 <div className={styles.desc}>
                     {this.props.shortDesc}
+                </div>
+                <div className={styles.tools}>
+                    {this.props.tools}
                 </div>
             </Link>
         )

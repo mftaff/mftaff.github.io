@@ -16,7 +16,8 @@ class PursuitsPage extends React.Component {
                     <PursuitShowcase
                         title={"Physics Major"}
                         image={physicsPhoto}
-                        shortDesc={"Collates my interest in clean water/solar technologies, space exploration, and quantum computing."}
+                        shortDesc={"Exploring clean water/solar technologies, space exploration, and quantum computing."}
+                        tools={"Honors | 4.0 GPA"}
                         url={"/pursuits/physics"}
                     />
                     <PursuitShowcase
