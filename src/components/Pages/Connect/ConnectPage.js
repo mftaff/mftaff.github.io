@@ -24,7 +24,7 @@ class ConnectPage extends React.Component {
                             " the smiling faces of african kids thriving is forever heartwarming. My" +
                             " passion for bringing out the best in others is what fuels me everyday."}/>
                         <ConnectInfo title={"I'd love to share more! Reach out:"}
-                            email={"meyertaffel(at)gmail.com"}
+                            email={"meyertaffel (gmail)"}
                             phone={"404-946-3390"}
                             social1={"Upwork"}
                             socialUrl1={"https://www.upwork.com/fl/meyertaffel"}

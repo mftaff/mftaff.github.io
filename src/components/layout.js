@@ -8,7 +8,7 @@ import Background from "../components/Common/Background";
 export default ({children}) => (
     <Background>
         <Helmet
-            title="Meyer Taffel - Physics Major | African Educator | Awesome Tutor"
+            title="Meyer Taffel - Freelance Web Developer | Physics Major"
             meta={[
                 {
                     name: 'description',

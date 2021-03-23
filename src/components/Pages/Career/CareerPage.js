@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './CareerPage.module.css';
 import CareerShowcase from './CareerShowcase';
+import temp from "../../../images/coming_soon.png";
 import wekkaSite from "../../../images/wekka_site.png";
 import bearfaceSite from "../../../images/bearface_site.png";
 
@@ -8,9 +9,14 @@ class CareerPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            freelanceHovering: false,
             wekkaHovering: false,
             bearfaceHovering: false,
         }
+    }
+
+    hoverFreelanceHandler = () => {
+        this.setState({freelanceHovering: !this.state.freelanceHovering})
     }
 
     hoverWekkaHandler = () => {
@@ -25,6 +31,47 @@ class CareerPage extends React.Component {
         return (
             <div className={styles.career}>
                 <div className={styles.grid}>
+                    <CareerShowcase
+                        title={
+                            <div>
+                                <span>Freelance</span>
+                                <span>Web Developer</span>
+                            </div>
+                        }
+                        company={"Freelancing | Upwork.com"}
+                        dates={"Aug 2019 - Present"}
+                        image={temp}
+                        shortDesc={
+                            "Freelancing has afforded me the ability to continue to" +
+                            " develop brilliant sites while leaving me the flexibility" +
+                            " to engage in my educational pursuits. Using Upwork.com," +
+                            " I have found a niche creating custom solutions for those" +
+                            " times where website generators fall short."}
+                        roleDesc={
+                            <div className={styles.roleDesc}>
+                                <p>Notable Projects:</p>
+                                <ul>
+                                    <li>The Road Boomer
+                                        <br></br>
+                                        <i>A photojournalist's online presence.</i>
+                                    </li>
+                                    <li>PictureBuild
+                                        <br></br>
+                                        <i>A landcaping companies' quote generating portal.</i>
+                                    </li>
+                                    <li>Todd Boss Originals
+                                        <br></br>
+                                        <i>An artists' blog. (backend only)</i>
+                                    </li>
+                                </ul>
+                            </div>
+                        }
+                        url={"https://wekka-staging.herokuapp.com"}
+                        target={"_blank"}
+                        hovering={this.state.freelanceHovering}
+                        hoverOn={this.hoverFreelanceHandler}
+                        hoverOff={this.hoverFreelanceHandler}
+                    />
                     <CareerShowcase
                         title={
                         <div>

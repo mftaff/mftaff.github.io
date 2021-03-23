@@ -23,7 +23,7 @@ class PursuitsPage extends React.Component {
                     <PursuitShowcase
                         title={"Freelance Web Developer"}
                         image={freelancePhoto}
-                        shortDesc={"Keeping clients happy with crisp, intuitive, and engaging websites."}
+                        shortDesc={"Creating crisp, intuitive, and engaging websites."}
                         url={"/pursuits/freelancing"}
                     />
                     <PursuitShowcase
@@ -33,10 +33,10 @@ class PursuitsPage extends React.Component {
                         url={"/pursuits/africa"}
                     />
                     <PursuitShowcase
-                        title={"Supplemental Instructor"}
+                        title={"Undergraduate Researcher"}
                         image={tutorPhoto}
-                        shortDesc={"My response to Coronavirus shutting down GSU? Creating and teaching an online class of 25+"}
-                        url={"/pursuits/tutor"}
+                        shortDesc={"Developing a method to 3d print a wireframe of a parametric surface using a node/edge graph."}
+                        url={"/pursuits/research"}
                     />
                     <PursuitShowcase
                         title={"Musician"}
@@ -45,9 +45,9 @@ class PursuitsPage extends React.Component {
                         url={"/pursuits/music"}
                     />
                     <PursuitShowcase
-                        title={"Tree Climbing Enthusiast"}
+                        title={"Climbing Enthusiast"}
                         image={treeClimbingPhoto}
-                        shortDesc={"What better way is there to stay fit and appreciate nature than to hang out in the treetops?"}
+                        shortDesc={"Crimps, Gaston, Slopers - It's all about the jargon. Nevermind the feeling of flow as the moves come together."}
                         url={"/pursuits/climbing"}
                     />
                 </div>
