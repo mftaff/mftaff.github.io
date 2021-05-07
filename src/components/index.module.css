@@ -4,8 +4,8 @@
 }
 
 :global(.mainLogo){
-    background-image: url('../images/meyer_logo.jpg');
-    box-shadow: 0px 0px 2px 0px #55805a;
+    background-image: url('../images/headshot.jpg');
+    box-shadow: 0px 0px 2px 0px #000000;
 }
 
 .pages {

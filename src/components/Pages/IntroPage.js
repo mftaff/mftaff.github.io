@@ -7,7 +7,7 @@ import MainLogo from "../Common/MainLogo";
 const IntroPage = () => (
     <div className={style.layout}>
 
-        <MainLogo size={200}/>
+        <MainLogo size={250}/>
 
         <SVGText text="Meyer Taffel"/>
 
