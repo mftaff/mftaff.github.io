@@ -3,8 +3,8 @@ import styles from './PursuitsPage.module.css';
 import PursuitShowcase from './PursuitShowcase';
 import actProudAfricaPhoto from "../../../images/pursuits/actProudAfrica.jpg";
 import freelancePhoto from "../../../images/pursuits/freelancing.png";
-import musicianPhoto from "../../../images/pursuits/musician.jpeg";
-import treeClimbingPhoto from "../../../images/pursuits/treeClimbing.jpeg";
+import musicianPhoto from "../../../images/pursuits/porchGuitar.jpg";
+import climbingPhoto from "../../../images/pursuits/rockClimbing.jpg";
 import tutorPhoto from "../../../images/pursuits/tutor.png";
 import physicsPhoto from "../../../images/pursuits/physics.jpg";
 
@@ -46,8 +46,8 @@ class PursuitsPage extends React.Component {
                     />
                     <PursuitShowcase
                         title={"Climbing Enthusiast"}
-                        image={treeClimbingPhoto}
-                        shortDesc={"Crimps, Gaston, Slopers - It's all about the jargon. Nevermind the feeling of flow as the moves come together."}
+                        image={climbingPhoto}
+                        shortDesc={"Where you'll find me on a Spring weekend...or Fall weekend...or any free chance I get :) "}
                         url={"/pursuits/climbing"}
                     />
                 </div>

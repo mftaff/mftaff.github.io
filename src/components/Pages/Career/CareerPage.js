@@ -66,7 +66,7 @@ class CareerPage extends React.Component {
                                 </ul>
                             </div>
                         }
-                        url={"https://wekka-staging.herokuapp.com"}
+                        url={"https://www.upwork.com/fl/meyertaffel"}
                         target={"_blank"}
                         hovering={this.state.freelanceHovering}
                         hoverOn={this.hoverFreelanceHandler}
