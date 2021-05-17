@@ -1,0 +1,140 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/commons.bfcbbe440b8d43584994.css
+  Cache-Control: public, max-age=31536000, immutable
+/commons-5d07a22e0ecc9af1b1c7.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-404-js-21094c0ce5357ea9b121.js
+  Cache-Control: public, max-age=31536000, immutable
+/styles.287344a19b8faa434154.css
+  Cache-Control: public, max-age=31536000, immutable
+/styles-c64fc171bfeea667f697.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-career-js-c531a0dd4ebd43a1c098.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-connect-js-3ae7c955c93a334a28a2.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-education-js-42d863c26143006589a8.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-d069f34732b91b5b3d39.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-pursuits-africa-js-6ced1ad0617b9816f1b5.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-pursuits-climbing-js-7e23a607caf333d87e22.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-pursuits-freelancing-js-310a662398f5ed6eb47e.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-pursuits-index-js-56cfe85a74b9db1fbb1f.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-pursuits-music-js-47cfa63984b239bfb1ea.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-pursuits-physics-js-97d943b30e2ca49c283b.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-pursuits-research-js-1e311e4b668b964eec5a.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-pursuits-tutor-js-4f145b49b5eaf1298376.js
+  Cache-Control: public, max-age=31536000, immutable
+/undefined
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-9a88f6ee6fd0510998e3.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-609e789227320d5e01c7.js
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
+/404/
+  Link: </webpack-runtime-9a88f6ee6fd0510998e3.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </app-609e789227320d5e01c7.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </component---src-pages-404-js-21094c0ce5357ea9b121.js>; rel=preload; as=script
+/career/
+  Link: </webpack-runtime-9a88f6ee6fd0510998e3.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </app-609e789227320d5e01c7.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </styles-c64fc171bfeea667f697.js>; rel=preload; as=script
+  Link: </component---src-pages-career-js-c531a0dd4ebd43a1c098.js>; rel=preload; as=script
+/connect/
+  Link: </webpack-runtime-9a88f6ee6fd0510998e3.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </app-609e789227320d5e01c7.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </styles-c64fc171bfeea667f697.js>; rel=preload; as=script
+  Link: </component---src-pages-connect-js-3ae7c955c93a334a28a2.js>; rel=preload; as=script
+/education/
+  Link: </webpack-runtime-9a88f6ee6fd0510998e3.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </app-609e789227320d5e01c7.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </styles-c64fc171bfeea667f697.js>; rel=preload; as=script
+  Link: </component---src-pages-education-js-42d863c26143006589a8.js>; rel=preload; as=script
+/
+  Link: </webpack-runtime-9a88f6ee6fd0510998e3.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </app-609e789227320d5e01c7.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </styles-c64fc171bfeea667f697.js>; rel=preload; as=script
+  Link: </component---src-pages-index-js-d069f34732b91b5b3d39.js>; rel=preload; as=script
+/pursuits/africa/
+  Link: </webpack-runtime-9a88f6ee6fd0510998e3.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </app-609e789227320d5e01c7.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </component---src-pages-pursuits-africa-js-6ced1ad0617b9816f1b5.js>; rel=preload; as=script
+/pursuits/climbing/
+  Link: </webpack-runtime-9a88f6ee6fd0510998e3.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </app-609e789227320d5e01c7.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </component---src-pages-pursuits-climbing-js-7e23a607caf333d87e22.js>; rel=preload; as=script
+/pursuits/freelancing/
+  Link: </webpack-runtime-9a88f6ee6fd0510998e3.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </app-609e789227320d5e01c7.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </component---src-pages-pursuits-freelancing-js-310a662398f5ed6eb47e.js>; rel=preload; as=script
+/pursuits/
+  Link: </webpack-runtime-9a88f6ee6fd0510998e3.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </app-609e789227320d5e01c7.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </styles-c64fc171bfeea667f697.js>; rel=preload; as=script
+  Link: </component---src-pages-pursuits-index-js-56cfe85a74b9db1fbb1f.js>; rel=preload; as=script
+/pursuits/music/
+  Link: </webpack-runtime-9a88f6ee6fd0510998e3.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </app-609e789227320d5e01c7.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </component---src-pages-pursuits-music-js-47cfa63984b239bfb1ea.js>; rel=preload; as=script
+/pursuits/physics/
+  Link: </webpack-runtime-9a88f6ee6fd0510998e3.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </app-609e789227320d5e01c7.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </component---src-pages-pursuits-physics-js-97d943b30e2ca49c283b.js>; rel=preload; as=script
+/pursuits/research/
+  Link: </webpack-runtime-9a88f6ee6fd0510998e3.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </app-609e789227320d5e01c7.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </component---src-pages-pursuits-research-js-1e311e4b668b964eec5a.js>; rel=preload; as=script
+/pursuits/tutor/
+  Link: </webpack-runtime-9a88f6ee6fd0510998e3.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </app-609e789227320d5e01c7.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </component---src-pages-pursuits-tutor-js-4f145b49b5eaf1298376.js>; rel=preload; as=script
+/404.html
+  Link: </webpack-runtime-9a88f6ee6fd0510998e3.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </app-609e789227320d5e01c7.js>; rel=preload; as=script
+  Link: </commons-5d07a22e0ecc9af1b1c7.js>; rel=preload; as=script
+  Link: </component---src-pages-404-js-21094c0ce5357ea9b121.js>; rel=preload; as=script
