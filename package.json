@@ -16,8 +16,12 @@
   "dependencies": {
     "gatsby": "^5.12.4",
     "gatsby-plugin-sass": "^6.12.0",
+    "gatsby-plugin-typography": "^5.12.0",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.67.0"
+    "react-typography": "^0.16.23",
+    "sass": "^1.67.0",
+    "typography": "^0.16.24"
   }
 }
