@@ -36,11 +36,3 @@ const layout = ({children}) => (
     </Background>
 );
 export default layout;
-
-export const Head = () => (
-    <>
-      <title>Meyer Taffel - Developer | B.S Physics</title>
-      <meta name="description" content="Hello World" />
-      <link rel="icon" type="image/png" href="../images/favicon.png" />
-    </>
-  )

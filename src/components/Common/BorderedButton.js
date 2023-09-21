@@ -1,6 +1,6 @@
 import React from 'react'
 import * as style from './BorderedButton.module.css'
-import Link from 'gatsby';
+import {Link} from 'gatsby';
 
 const BorderedButton = ({href, to, target, name}) => {
 

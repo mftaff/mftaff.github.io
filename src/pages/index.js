@@ -1,11 +1,10 @@
 import React from 'react';
-// import IntroPage from '../components/Pages/IntroPage';
+import IntroPage from '../components/Pages/IntroPage';
 import Layout from '../components/layout';
 
 const index = () => (
     <Layout>
-        <p>Hello</p>
-        {/* <IntroPage/> */}
+        <IntroPage/>
     </Layout>
 );
 export default index
