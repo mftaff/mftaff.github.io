@@ -1,0 +1,22 @@
+.text {
+    font-size: 0.8em;
+    -webkit-margin-before: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+    -webkit-margin-after: 0.8em;
+    font-weight: bold;
+}
+
+.largeButton {
+    border: 2px solid #fafafa;
+    color: #fafafa;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px;
+    min-width: 170px;
+}
+
+.largeButton:hover {
+    color: #DCE3E7;
+    border: 2px solid #DCE3E7;
+}

@@ -3,15 +3,15 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `MeyerTaffel`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: "MeyerTaffel",
+    siteUrl: "https://www.yourdomain.tld"
   },
   plugins: [
     "gatsby-plugin-sass",
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: "gatsby-plugin-typography",
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        pathToConfigModule: "src/utils/typography",
       },
     },
   ]
