@@ -1,0 +1,52 @@
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    -ms-animation : fadein 2s;
+}
+
+@supports (display: grid) {
+
+    @media screen and (max-width: 800px) {
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
