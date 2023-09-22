@@ -1,7 +1,8 @@
 import React from "react";
 import * as styles from './EducationShowcase.module.css'
 import SchoolShowcase from "./SchoolShowcase";
-import blocLogo from "../../../images/bloc_logo.png";
+import thinkfulLogo from "../../../images/thinkful_logo.png";
+import umdLogo from "../../../images/umd_logo.png";
 import gsuLogo from "../../../images/gsu_logo.png";
 import decLogo from "../../../images/dec_logo.jpg";
 
@@ -11,21 +12,32 @@ class EducationShowcase extends React.Component {
             <div className={styles.page}>
                 <div className={styles.grid}>
                     <SchoolShowcase
-                        name={"GSU - Perimeter"}
-                        title={"Physics Major"}
+                        name={"University of Maryland"}
+                        title={"B.S Physics"}
+                        location={"College Park, MD"}
+                        imgSrc={umdLogo}
+                        gpa={"3.8"}
+                        url={"/education/"}
+                        target={"_blank"}
+                        year={"Spring '24"}
+                        status={"Expected"}
+                    />
+                    <SchoolShowcase
+                        name={"Perimeter Honours College"}
+                        title={"Physics"}
                         location={"Atlanta, GA"}
                         imgSrc={gsuLogo}
                         gpa={"4.0"}
                         url={"https://meritpages.com/meyertaffel"}
                         target={"_blank"}
-                        year={"Spring '20"}
-                        status={"Enrolled"}
+                        year={"Spring '21"}
+                        status={"Transferred"}
                     />
                     <SchoolShowcase
-                        name={"Bloc.io"}
-                        title={"Software Development Track"}
-                        location={"Online - San Francisco, CA"}
-                        imgSrc={blocLogo}
+                        name={"Thinkful.com"}
+                        title={"Software Development Track (Full Stack)"}
+                        location={"Online (Formerly Bloc.io)"}
+                        imgSrc={thinkfulLogo}
                         url={"https://www.bloc.io/"}
                         target={"_blank"}
                         year={"Jan 2018"}
