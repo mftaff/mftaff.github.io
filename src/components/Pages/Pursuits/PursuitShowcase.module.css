@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  color: #484848;
+  text-decoration: none;
+  width: 325px;
+  margin: 8px;
+  padding: 32px;
+  background: #fafafa;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  animation: fadein 2s;
+}
+
+.container:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.29), 0 10px 10px rgba(0, 0, 0, 0.26);
+}
+
+.title {
+  min-height: 56px;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  color: #465E84;
+}
+
+.desc {
+  padding-top: 5px;
+  color: #465E84;
+  font-size: 16px;
+  font-style: italic;
+  margin: auto;
+}
+
+.breakline {
+  width: 60px;
+  height: 3px;
+  margin: 20px auto;
+  background: #e2db21;
+}
+
+.tools {
+  color: #465E84;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.location {
+  list-style-type: none;
+  text-align: start;
+  padding-bottom: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.button {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  margin: 10px;
+  box-shadow: 0px 0px 6px -3px #a0a0a0;
+}
+
+@supports (justify-content: space-evenly) {
+  .icons {
+      justify-content: space-evenly;
+  }
+}
