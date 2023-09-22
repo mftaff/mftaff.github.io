@@ -1,12 +1,12 @@
 import React from "react";
-import * as styles from './ConnectPage.module.css'
+import * as styles from './AboutPage.module.css'
 import CardPage from "../../Common/CardPage";
 import CardInfo from "../../Common/CardInfo";
 import ConnectInfo from "../../Common/ConnectInfo";
 
 import {FaLinkedin} from "react-icons/fa";
 
-class ConnectPage extends React.Component {
+class AboutPage extends React.Component {
     render() {
         return (
             <div className={styles.page}>
@@ -37,6 +37,6 @@ class ConnectPage extends React.Component {
     }
 }
 
-ConnectPage.propTypes = {};
+AboutPage.propTypes = {};
 
-export default ConnectPage;
+export default AboutPage;

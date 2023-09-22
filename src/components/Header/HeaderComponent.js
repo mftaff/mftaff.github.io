@@ -23,7 +23,7 @@ const Header = () => {
 
             <div className={style.links}>
 
-                <FlatButton to="/connect/" name="Connect"/>
+                <FlatButton to="/about/" name="About"/>
                 <FlatButton to="/career/" name="Career"/>
                 <FlatButton to="/education/" name="Education"/>
                 <FlatButton to="/contact/" name="Contact"/>
