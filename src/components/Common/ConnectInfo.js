@@ -9,8 +9,8 @@ const ConnectInfo = ({title, email, phone, social1, socialUrl1, social2, socialU
       <p>{phone}</p>
 
       <div className={styles.socials}>
-        <a className={styles.upwrk} href={socialUrl1} target={"_blank"} >{social1}</a>
-        <a className={styles.lnkdn} href={socialUrl2} target={"_blank"} >{social2}</a>
+        <a className={styles.upwrk} href={socialUrl1} target={"_blank"} rel={"noreferrer"}>{social1}</a>
+        <a className={styles.lnkdn} href={socialUrl2} target={"_blank"} rel={"noreferrer"} >{social2}</a>
       </div>
   </div>
 );

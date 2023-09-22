@@ -9,7 +9,8 @@
 }
 
 .socials {
-  text-align: right;
+  display: flex;
+  justify-content: right;
 }
 
 .upwrk {
@@ -19,6 +20,7 @@
   font-size: 0.7em;
   font-weight: 400;
   margin-right: 5px;
+  margin-top: 4px;
   padding: 1px 3px;
   padding-top: 1px;
   border-radius: 4px;
