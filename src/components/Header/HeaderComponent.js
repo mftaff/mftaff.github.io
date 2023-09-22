@@ -26,6 +26,7 @@ const Header = () => {
                 <FlatButton to="/connect/" name="Connect"/>
                 <FlatButton to="/career/" name="Career"/>
                 <FlatButton to="/education/" name="Education"/>
+                <FlatButton to="/contact/" name="Contact"/>
 
             </div>
         </div>
