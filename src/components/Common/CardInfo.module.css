@@ -6,11 +6,17 @@
     margin-bottom: 2em;
 }
 
-.choice1, .choice2, .choice3 {
+
+.choice1, .choice2, .choice3, .choice4 {
+    font-size: bold;
+    font-size: 0.95em;
+}
+
+.choice1, .choice2, .choice3, .choice4 {
     margin-bottom: 0.5em;
     font-size: 0.95em;
 }
 
-.choice3 {
+.choice4 {
     margin-bottom: 1.666rem;;
 }

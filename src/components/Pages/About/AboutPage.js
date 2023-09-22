@@ -10,22 +10,17 @@ class AboutPage extends React.Component {
     render() {
         return (
             <div className={styles.page}>
-                <CardPage title={"5+ years coding experience and a 100% satisfaction rate with my clients."
+                <CardPage title={"My Story:"
                     }>
                     <div className={styles.info}>
-                        <CardInfo text={"3 reasons to consider working together on your project:"}
-                            choice1={"1) I led R&D at an Israeli startup shortly after graduating" +
-                            " from an online coding school. The design schools of Tel Aviv inspired" +
-                            " my design aesthetic, and I have real-world experience getting projects" +
-                            " up and running with minimal investment costs."}
-                            choice2={"2) I'm top-rated on Upwork, with a 100% job success rate. You can" +
-                            " browse through my clients' feedback; They've got great things to say ;)"}
-                            choice3={"3) I pride myself on my client relationships. Working with me, you" +
-                            " will find that I am communicative, collaborative, and creative, with the ability" +
-                            " to design websites whose effortless aesthetic masks complex functionality."}/>
-                        <ConnectInfo title={"Looking forward to hearing from you! Reach out:"}
-                            email={"meyertaffelwebsolutions (gmail)"}
-                            phone={"404-946-3390"}
+                        <CardInfo text={"Hey! I'm Meyer. Add: Current studies/research and hobbies a bit of trivia."}
+                            choice1={"Add 2020-2024 here. GSU/move to umd/current."}
+                            choice2={"Add 2016-2020 here. Wekka/Freelancing/move to Atlanta/tree fall+covid/climbing"}
+                            choice3={"Add 2019-2019 here. Uganda and getting involved in ACTS"}
+                            choice4={"Add highschool-2016 here: After graduating highschool in 2012, I spent a year abroad that turned into 6, etc"}
+                        />
+                        <ConnectInfo title={"That's all for now, stay tuned."}
+                            email={"(And the adventure has only just begun.)"}
                             social1={"Upwork"}
                             socialUrl1={"https://www.upwork.com/fl/meyertaffel"}
                             social2={<FaLinkedin />}
