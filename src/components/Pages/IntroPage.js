@@ -12,9 +12,7 @@ const IntroPage = () => (
         <SVGText text="Meyer Taffel"/>
 
         <h2 className={style.tagline}>
-            <span>Freelance Web Developer</span>
-            <span className={style.spacer}> - </span>
-            <span>Physics Student</span>
+            <span>Undergraduate Researcher</span>
         </h2>
         
         <div className={style.buttons}>
