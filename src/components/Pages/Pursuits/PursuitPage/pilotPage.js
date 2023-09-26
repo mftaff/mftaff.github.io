@@ -1,13 +1,13 @@
 import React from 'react';
 import * as styles from './PursuitPage.module.css';
-import CardPage from '../../../Common/CardPage';
+import CardPage from "../../../Common/CardPage";
 import PursuitInfo from '../../../Common/PursuitInfo';
 
-class MusicPage extends React.Component {
+class PilotPage extends React.Component {
     render() {
         return (
             <div className={styles.page}>
-                <CardPage title={"Musician"}>
+                <CardPage title={"FAA-Certified sUAS Pilot"}>
                     <div className={styles.grid}>
                         <PursuitInfo title={"Infinite monkeys are drafting this page's content."} />
                     </div>
@@ -17,6 +17,6 @@ class MusicPage extends React.Component {
     }
 }
 
-MusicPage.propTypes = {};
+PilotPage.propTypes = {};
 
-export default MusicPage;
+export default PilotPage;

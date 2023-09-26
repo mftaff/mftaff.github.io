@@ -1,11 +1,11 @@
 import React from 'react';
 import * as styles from './PursuitsPage.module.css';
 import PursuitShowcase from './PursuitShowcase';
-import actProudAfricaPhoto from "../../../images/pursuits/actProudAfrica.jpg";
+import AfricaPhoto from "../../../images/pursuits/kidsWaving.png";
 import freelancePhoto from "../../../images/pursuits/freelancing.png";
-import musicianPhoto from "../../../images/pursuits/porchGuitar.jpg";
-import climbingPhoto from "../../../images/pursuits/rockClimbing.jpg";
+import climbingPhoto from "../../../images/pursuits/rockClimbingFlipped.png";
 import tutorPhoto from "../../../images/pursuits/tutor.png";
+import pilotPhoto from "../../../images/pursuits/uasController.png";
 import physicsPhoto from "../../../images/pursuits/physics.jpg";
 
 class PursuitsPage extends React.Component {
@@ -27,27 +27,27 @@ class PursuitsPage extends React.Component {
                         url={"/pursuits/freelancing"}
                     />
                     <PursuitShowcase
-                        title={"Act Proud Africa"}
-                        image={actProudAfricaPhoto}
-                        shortDesc={"My initative to pair young Africans with inspirational mentors."}
-                        url={"/pursuits/africa"}
-                    />
-                    <PursuitShowcase
                         title={"Undergraduate Researcher"}
                         image={tutorPhoto}
                         shortDesc={"Developing a method to 3d print a wireframe of a parametric surface using a node/edge graph."}
                         url={"/pursuits/research"}
                     />
                     <PursuitShowcase
-                        title={"Musician"}
-                        image={musicianPhoto}
-                        shortDesc={"Music connects us and inspires us to shine. It uplifts us and motivates us to soar."}
-                        url={"/pursuits/music"}
+                        title={"sUAS Pilot"}
+                        image={pilotPhoto}
+                        shortDesc={"FAA-certified sUAS pilot."}
+                        url={"/pursuits/pilot"}
                     />
                     <PursuitShowcase
-                        title={"Climbing Enthusiast"}
+                        title={"ACTS International"}
+                        image={AfricaPhoto}
+                        shortDesc={"Coordinator of U.S Chapter providing education for young Ugandans."}
+                        url={"/pursuits/africa"}
+                    />
+                    <PursuitShowcase
+                        title={"Rock Climber"}
                         image={climbingPhoto}
-                        shortDesc={"Where you'll find me on a Spring weekend...or Fall weekend...or any free chance I get :) "}
+                        shortDesc={"Climbs: Critter Crack 5.6, Seneca. Frosty Cone 5.7, Joshua Tree. Superslab 5.10d, Safe Harbor."}
                         url={"/pursuits/climbing"}
                     />
                 </div>

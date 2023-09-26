@@ -7,7 +7,7 @@ class ClimbingPage extends React.Component {
     render() {
         return (
             <div className={styles.page}>
-                <CardPage title={"Tree Climbing Enthusiast"}>
+                <CardPage title={"Rock Climber"}>
                     <div className={styles.grid}>
                         <PursuitInfo title={"Infinite monkeys are drafting this page's content."} />
                     </div>
