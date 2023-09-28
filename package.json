@@ -24,5 +24,8 @@
     "react-typography": "^0.16.23",
     "sass": "^1.67.0",
     "typography": "^0.16.24"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
