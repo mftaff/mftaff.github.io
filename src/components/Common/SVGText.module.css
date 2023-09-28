@@ -1,13 +1,13 @@
 .svg {
     height: 60px;
-    width: 300px;
+    width: 326px;
 }
 
 .text {
-    fill: #fafafa;
+    fill: #1f1f1f;
     font-size: 50px;
     font-weight: 300;
-    stroke: #fafafa;
+    stroke: #1f1f1f;
     stroke-linecap: butt;
     stroke-linejoin: miter;
     stroke-width: 1;

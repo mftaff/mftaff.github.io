@@ -29,11 +29,6 @@
   -ms-animation : fadein 2s;
 }
 
-.buttons a {
-  color: black;
-  border: 2px solid black;
-}
-
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
   from {

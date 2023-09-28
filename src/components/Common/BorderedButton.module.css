@@ -8,8 +8,8 @@
 }
 
 .largeButton {
-    border: 2px solid #fafafa;
-    color: #fafafa;
+    border: 2px solid #272727;
+    color: #1f1f1f;
     text-transform: uppercase;
     text-decoration: none;
     margin: 10px;
@@ -17,6 +17,6 @@
 }
 
 .largeButton:hover {
-    color: #DCE3E7;
-    border: 2px solid #DCE3E7;
+    color: #525252;
+    border: 2px solid #525252;
 }

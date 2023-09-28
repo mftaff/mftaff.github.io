@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 import * as style from './Background.module.css'
-import background from '../../images/background.svg'
+import background from '../../images/backgroundGrayscale.svg'
 
 const Background = ({children}) => (
     <div

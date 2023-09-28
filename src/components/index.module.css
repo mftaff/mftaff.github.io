@@ -1,6 +1,6 @@
 :root {
-    --main-bg-color: #527c58;
-    --secondary-bg-color: #87dc91;
+    --main-bg-color: #ffffff;
+    --secondary-bg-color: #5e5e5e;
 }
 
 :global(.mainLogo){
