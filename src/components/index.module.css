@@ -4,7 +4,7 @@
 }
 
 :global(.mainLogo){
-    background-image: url('../images/headshot.jpg');
+    background-image: url('../images/headshot.png');
     box-shadow: 0px 0px 2px 0px #000000;
 }
 
