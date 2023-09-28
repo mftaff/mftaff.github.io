@@ -6,7 +6,7 @@
   color: #484848;
   text-decoration: none;
   width: 360px;
-  min-height: 654px;
+  min-height: 610px;
   margin: 8px;
   padding: 32px;
   background: #fafafa;
@@ -33,7 +33,17 @@
 }
 
 .desc {
-  text-align: start;
+  text-align: center;
+  position: relative;
+  min-height: 170px;
+}
+
+.moreBtn {
+  color: #465E84;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .roleDesc {

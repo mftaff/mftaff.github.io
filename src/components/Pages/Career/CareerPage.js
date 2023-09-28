@@ -1,6 +1,7 @@
 import React from 'react';
 import * as styles from './CareerPage.module.css';
 import CareerShowcase from './CareerShowcase';
+import umdLogo from "../../../images/pursuits/umdLogo241x174.png"
 import temp from "../../../images/theroadboomer.png";
 import wekkaSite from "../../../images/wekka_site.png";
 import bearfaceSite from "../../../images/bearface_site.png";
@@ -9,10 +10,15 @@ class CareerPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            researchHovering: false,
             freelanceHovering: false,
             wekkaHovering: false,
             bearfaceHovering: false,
         }
+    }
+
+    hoverResearchHandler = () => {
+        this.setState({researchHovering: !this.state.researchHovering})
     }
 
     hoverFreelanceHandler = () => {
@@ -34,34 +40,65 @@ class CareerPage extends React.Component {
                     <CareerShowcase
                         title={
                             <div>
+                                <span>Undergraduate</span>
+                                <span>Researcher</span>
+                            </div>
+                        }
+                        company={"Lathrap Labs @ UMD"}
+                        dates={"Summer 2021 - Present"}
+                        image={umdLogo}
+                        shortDesc={
+                            "Lab member focusing on R&D for drone-based applied physics/geophysics."
+                        }
+                        roleDesc={
+                            <div className={styles.roleDesc}>
+                                <p>Research Responsibilities</p>
+                                <ul>
+                                    <li>Design/dev/fabrication of landing gear & sensor package. <small>(~$90k worth of equipment at stake).</small></li>
+                                    <li>Use of geophysical methods to interpret magnetic data and categorize subsurface anomalies.</li>
+                                    <li>FAA-Certified Drone pilot</li>
+                                    <li><small>Taffel, M., et al. Use of Magnetic Gradiometry for near surface detection and mapping. (In preparation).</small></li>
+                                </ul>
+                            </div>
+                        }
+                        url={"https://www.upwork.com/fl/meyertaffel"}
+                        target={"_blank"}
+                        hovering={this.state.researchHovering}
+                        hoverOn={this.hoverResearchHandler}
+                        hoverOff={this.hoverResearchHandler}
+                    />
+                    <CareerShowcase
+                        title={
+                            <div>
                                 <span>Freelance</span>
                                 <span>Web Developer</span>
                             </div>
                         }
-                        company={"Freelancing | Upwork.com"}
-                        dates={"Aug 2019 - Present"}
+                        company={"Freelance | Upwork.com"}
+                        dates={"Aug 2019 - Fall 2021"}
                         image={temp}
                         shortDesc={
-                            "Freelancing has afforded me the ability to continue to" +
-                            " develop stunning sites while leaving me the flexibility" +
-                            " to engage in my educational pursuits. Using Upwork.com," +
-                            " I have found a niche creating custom solutions for those" +
+                            "Freelancer specializing in creating niche solutions for those" +
                             " times when website generators fall short."}
                         roleDesc={
                             <div className={styles.roleDesc}>
                                 <p>Notable Projects:</p>
                                 <ul>
+                                    <li>TotalDietetics
+                                        <br></br>
+                                        <i>Diet Planner imbedded in a Wix site.</i>
+                                    </li>
                                     <li>The Road Boomer
                                         <br></br>
-                                        <i>A photojournalist's online presence.</i>
+                                        <i>Photojournalist's online presence.</i>
                                     </li>
                                     <li>PictureBuild
                                         <br></br>
-                                        <i>A landcaping companies' quote generating portal.</i>
+                                        <i>Landcaping companies' quote generating portal.</i>
                                     </li>
                                     <li>Todd Boss Originals
                                         <br></br>
-                                        <i>An artists' blog. (backend only)</i>
+                                        <i>Artists' blog. (backend only)</i>
                                     </li>
                                 </ul>
                             </div>
@@ -83,24 +120,19 @@ class CareerPage extends React.Component {
                         dates={"Dec 2017 - Mar 2019"}
                         image={wekkaSite}
                         shortDesc={
-                            "Wekka was a digital marketer recruitment platform." +
-                            " Using smart matching algorithms and an intuitive" +
-                            " hiring UI, Wekka took the friction out of recruitment." +
-                            " Wekka also provided digital marketers a sharp canvas with" +
-                            " which to highlight their talents."}
+                            "As co-founder I had a hand in all aspects of growing an MVP. Primarily responsible for software dev."
+                        }
                         roleDesc={
                             <div className={styles.roleDesc}>
                                 <p>Founder Responsibilities:</p>
                                 <ul>
                                     <li>Developed business strategy and kept Wekka on target.</li>
-                                    <li>Developed marketing roadmap targeting early adopters.</li>
-                                    <li>Developed sales strategy and led implementation.</li>
+                                    <li>Grew Wekka to over 1k users in the first 6 months of operations.</li>
                                 </ul>
                                 <p>Technical Responsibilities:</p>
                                 <ul>
-                                    <li>Created application specific matching algorithm.</li>
-                                    <li>Built and managed backend using Rails/PostgreSQL.</li>
-                                    <li>Built and managed frontend using Bootstrap/Jquery.</li>
+                                    <li>Designed and coded matching algorithm I.P.</li>
+                                    <li>Chiefly responsible for developing all aspects of our stack. <small>(Rails/PostgreSQL/Bootstrap/Jquery).</small></li>
                                 </ul>
                             </div>
                         }
@@ -121,18 +153,14 @@ class CareerPage extends React.Component {
                         dates={"Nov 2017 - Mar 2018"}
                         image={bearfaceSite}
                         shortDesc={
-                            "Bearface Media is a tech firm that utilizes modern" + 
-                            " intuitive design and cloud based infrastructure to" +
-                            " build custom-fit software solutions. From customer-facing" +
-                            " web apps to internal scheduling tools, Bearface Media" +
-                            " specializes in delivering quality solutions."}
+                            "First foray into full-stack web dev after completing an 18 month bootcamp."
+                        }
                         roleDesc={
                             <div className={styles.roleDesc}>
                                 <p>Responsibilities:</p>
                                 <ul>
-                                    <li>Worked with clients to customize their UI for specific needs.</li>
-                                    <li>Developed the online scheduling component of BearFace’s app suite.</li>
-                                    <li>Developed the quote generating component of BearFace’s app suite.</li>
+                                    <li>Worked directly with clients to customize UI for their needs.</li>
+                                    <li>Developed the scheduler & quote generator for BF’s app suite.</li>
                                     <li>Updated old source code to bring it in-line with modern best-practices.</li>
                                 </ul>
                             </div>

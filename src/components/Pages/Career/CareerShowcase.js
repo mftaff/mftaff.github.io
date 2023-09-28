@@ -22,7 +22,8 @@ class CareerShowcase extends React.Component {
                 }
 
                 <div className={[ styles.desc, styles[this.props.hovering ? "hidden" : "unhidden"] ].join(' ')}>
-                    {this.props.shortDesc}
+                    <span>{this.props.shortDesc}</span>
+                    <span className={styles.moreBtn}>Read more.</span>
                 </div>
 
                 <div className={[ styles.roleDesc, styles[this.props.hovering ? "unhidden" : "hidden"] ].join(' ')}>
