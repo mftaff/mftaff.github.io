@@ -6,7 +6,8 @@ import * as styles from './PursuitShowcase.module.css';
 class PursuitShowcase extends React.Component {
     render() {
         return (
-            <Link className={styles.container} to={this.props.url} data-ripple="true">
+            // <Link className={styles.container} to={this.props.url} data-ripple="true">
+            <Link className={styles.container} data-ripple="true">
                 <h3 className={styles.title}>{this.props.title}</h3>
                 <hr className={styles.breakline}/>
 

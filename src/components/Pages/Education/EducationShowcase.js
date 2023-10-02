@@ -17,7 +17,7 @@ class EducationShowcase extends React.Component {
                         location={"College Park, MD"}
                         imgSrc={umdLogo}
                         gpa={"3.8"}
-                        url={"/education/"}
+                        url={"https://umdphysics.umd.edu/"}
                         target={"_blank"}
                         year={"Spring '24"}
                         status={"Expected"}
@@ -28,7 +28,7 @@ class EducationShowcase extends React.Component {
                         location={"Atlanta, GA"}
                         imgSrc={gsuLogo}
                         gpa={"4.0"}
-                        url={"https://meritpages.com/meyertaffel"}
+                        url={"https://meritpages.com/meyertaffel/"}
                         target={"_blank"}
                         year={"Spring '21"}
                         status={"Transferred"}
@@ -38,7 +38,7 @@ class EducationShowcase extends React.Component {
                         title={"Software Development Track (Full Stack)"}
                         location={"Online (Formerly Bloc.io)"}
                         imgSrc={thinkfulLogo}
-                        url={"https://www.bloc.io/"}
+                        url={"https://www.thinkful.com/"}
                         target={"_blank"}
                         year={"Jan 2018"}
                         status={"Graduated"}
@@ -49,7 +49,7 @@ class EducationShowcase extends React.Component {
                         location={"Jerusalem, Israel"}
                         imgSrc={decLogo}
                         gpa={"4.0"}
-                        url={"/education/"}
+                        target={"_blank"}
                         year={"Apr 2016"}
                         status={"Graduated"}
                     />

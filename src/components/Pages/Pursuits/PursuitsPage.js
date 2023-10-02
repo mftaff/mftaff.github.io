@@ -2,7 +2,6 @@ import React from 'react';
 import * as styles from './PursuitsPage.module.css';
 import PursuitShowcase from './PursuitShowcase';
 import AfricaPhoto from "../../../images/pursuits/kidsWaving.png";
-// import freelancePhoto from "../../../images/pursuits/freelancing.png";
 import climbingPhoto from "../../../images/pursuits/rockClimbingFlipped.png";
 import pilotPhoto from "../../../images/pursuits/uasController.png";
 import physicsPhoto from "../../../images/pursuits/umdLogo241x174.png";
@@ -13,12 +12,6 @@ class PursuitsPage extends React.Component {
         return (
             <div className={styles.page}>
                 <div className={styles.grid}>
-                    {/* <PursuitShowcase
-                        title={"Freelance Web Developer"}
-                        image={freelancePhoto}
-                        shortDesc={"Creating crisp, intuitive, and engaging websites."}
-                        url={"/pursuits/freelancing"}
-                    /> */}
                     <PursuitShowcase
                         title={"Undergraduate Researcher"}
                         image={physicsPhoto}
