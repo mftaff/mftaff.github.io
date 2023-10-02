@@ -44,7 +44,7 @@ class CareerPage extends React.Component {
                                 <span>Researcher</span>
                             </div>
                         }
-                        company={"Lathrap Labs @ UMD"}
+                        company={"Lathrop Labs @ UMD"}
                         dates={"Summer 2021 - Present"}
                         image={umdLogo}
                         shortDesc={
@@ -61,7 +61,7 @@ class CareerPage extends React.Component {
                                 </ul>
                             </div>
                         }
-                        url={"https://www.upwork.com/fl/meyertaffel"}
+                        url={"https://complex.umd.edu/"}
                         target={"_blank"}
                         hovering={this.state.researchHovering}
                         hoverOn={this.hoverResearchHandler}
@@ -136,7 +136,7 @@ class CareerPage extends React.Component {
                                 </ul>
                             </div>
                         }
-                        url={"https://wekka-staging.herokuapp.com"}
+                        // url={"https://wekka-staging.herokuapp.com"}
                         target={"_blank"}
                         hovering={this.state.wekkaHovering}
                         hoverOn={this.hoverWekkaHandler}
@@ -165,7 +165,7 @@ class CareerPage extends React.Component {
                                 </ul>
                             </div>
                         }
-                        url={"https://www.bearface.io/"}
+                        // url={"https://www.bearface.io/"}
                         target={"_blank"}
                         hovering={this.state.bearfaceHovering}
                         hoverOn={this.hoverBearfaceHandler}
