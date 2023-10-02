@@ -12,7 +12,6 @@ export default index
 export const Head = () => (
   <>
     <title>Meyer Taffel - Developer | B.S Physics</title>
-    <meta name="description" content="Hello World" />
-    <link rel="icon" type="image/png" href="../images/favicon.png" />
+    <meta name="Meyer Taffel" content="" />
   </>
 )
