@@ -29,7 +29,7 @@ class PursuitsPage extends React.Component {
                         title={"Senior, B.S Physics"}
                         image={physicsPhoto}
                         shortDesc={"Applied Physics, R&D, Renewable Energy, Sustainability"}
-                        tools={"Spring '24 | GPA 3.8"}
+                        tools={"Spring '24 | GPA 3.7"}
                         url={"/pursuits/physics"}
                     />
                     <PursuitShowcase
