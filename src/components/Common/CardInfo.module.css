@@ -3,20 +3,10 @@
 }
 
 .text {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
-
-.choice1, .choice2, .choice3, .choice4 {
-    font-size: bold;
-    font-size: 0.95em;
-}
-
-.choice1, .choice2, .choice3, .choice4 {
+.paragraph {
     margin-bottom: 0.5em;
     font-size: 0.95em;
-}
-
-.choice4 {
-    margin-bottom: 1.666rem;;
 }
