@@ -45,7 +45,7 @@ class CareerPage extends React.Component {
                             </div>
                         }
                         company={"Lathrop Labs @ UMD"}
-                        dates={"Summer 2021 - Present"}
+                        dates={"Summer 2022 - Present"}
                         image={umdLogo}
                         shortDesc={
                             "Lab member focusing on R&D for drone-based applied physics/geophysics."
@@ -54,7 +54,7 @@ class CareerPage extends React.Component {
                             <div className={styles.roleDesc}>
                                 <p>Research Responsibilities</p>
                                 <ul>
-                                    <li>Design/dev/fabrication of landing gear & sensor package. <small>(~$90k worth of equipment at stake).</small></li>
+                                    <li>Design/dev/fabrication of landing gear & sensor package.</li>
                                     <li>Use of geophysical methods to interpret magnetic data and categorize subsurface anomalies.</li>
                                     <li>FAA-Certified Drone pilot</li>
                                     <li><small>Taffel, M., et al. Use of Magnetic Gradiometry for near surface detection and mapping. (In preparation).</small></li>
