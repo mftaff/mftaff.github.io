@@ -15,7 +15,7 @@ class AboutPage extends React.Component {
                     <div className={styles.info}>
                         <CardInfo text={"Hello!"}
                             paragraphs={[
-                                "My name’s Meyer, I am a non-traditional undergraduate physics major in my final year at University of Maryland. I’ve returned to study physics to use applied physics R&D to contribute to transitioning to a sustainable world.",
+                                "My name’s Meyer, I am a non-traditional physics major in my final year at University of Maryland. I’ve returned to study physics to use applied physics R&D to contribute to transitioning to a sustainable world.",
                                 "Beginning Summer 2021, I’ve been an undergraduate researcher in applied physics / geophysics with Lathrop Labs. I conduct independent research and collaborate with my fellow lab members.",
                                 "My research role is primarily connected with the NSF grant - “Aerial Vehicle using AI for Landmine Detection” (AVAILD). I designed and fabricated the landing gear for our altaX drone (wingspan over 7ft!) as well as the payload integration for our sensor suite. This required extensive knowledge of Fusion360/autoCAD, machining, 3D-printing, and CFRP FDM.",
                                 "Now that we are up and flying (I’m an FAA-certified sUAS Pilot), I am working on data collection and analysis for near-surface anomaly/utility detection.",
