@@ -3,9 +3,9 @@ import * as styles from './PursuitsPage.module.css';
 import PursuitShowcase from './PursuitShowcase';
 import AfricaPhoto from "../../../images/pursuits/kidsWaving.png";
 import climbingPhoto from "../../../images/pursuits/rockClimbingFlipped.png";
-import pilotPhoto from "../../../images/pursuits/uasController.png";
+import pilotPhoto from "../../../images/pursuits/dronePilot.png";
 import physicsPhoto from "../../../images/pursuits/umdLogo241x174.png";
-import octagearPhoto from "../../../images/pursuits/octagear.png";
+import octagearPhoto from "../../../images/pursuits/AltaXLanded.png";
 
 class PursuitsPage extends React.Component {
     render() {
