@@ -35,7 +35,7 @@ class PursuitsPage extends React.Component {
                     <PursuitShowcase
                         title={"sUAS Pilot"}
                         image={pilotPhoto}
-                        shortDesc={"FAA-certified sUAS pilot. (Part 107)"}
+                        shortDesc={"FAA-Licensed sUAS pilot. (Part 107)"}
                         tools={""}
                         url={"/pursuits/pilot"}
                     />

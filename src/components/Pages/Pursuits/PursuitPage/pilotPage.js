@@ -7,7 +7,7 @@ class PilotPage extends React.Component {
     render() {
         return (
             <div className={styles.page}>
-                <CardPage title={"FAA-Certified sUAS Pilot"}>
+                <CardPage title={"FAA-Licensed sUAS Pilot"}>
                     <div className={styles.grid}>
                         <PursuitInfo title={"Infinite monkeys are drafting this page's content."} />
                     </div>

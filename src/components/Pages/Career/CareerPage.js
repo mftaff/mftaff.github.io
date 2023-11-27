@@ -56,7 +56,7 @@ class CareerPage extends React.Component {
                                 <ul>
                                     <li>Design/dev/fabrication of landing gear & sensor package.</li>
                                     <li>Use of geophysical methods to interpret magnetic data and categorize subsurface anomalies.</li>
-                                    <li>FAA-Certified Drone pilot</li>
+                                    <li>FAA-Licensed Drone pilot</li>
                                     <li><small>Taffel, M., et al. Use of Magnetic Gradiometry for near surface detection and mapping. (In preparation).</small></li>
                                 </ul>
                             </div>
