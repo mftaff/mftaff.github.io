@@ -23,11 +23,11 @@ class EducationShowcase extends React.Component {
                         status={"Expected"}
                     />
                     <SchoolShowcase
-                        name={"Perimeter Honours College"}
-                        title={"Physics"}
+                        name={"GSU - Perimeter College"}
+                        title={"Physics (Honours)"}
                         location={"Atlanta, GA"}
                         imgSrc={gsuLogo}
-                        gpa={"4.0"}
+                        // gpa={"4.0"}
                         url={"https://meritpages.com/meyertaffel/"}
                         target={"_blank"}
                         year={"Spring '21"}
@@ -48,7 +48,7 @@ class EducationShowcase extends React.Component {
                         title={"Talmudic Law"}
                         location={"Jerusalem, Israel"}
                         imgSrc={decLogo}
-                        gpa={"4.0"}
+                        // gpa={"4.0"}
                         target={"_blank"}
                         year={"Apr 2016"}
                         status={"Graduated"}
