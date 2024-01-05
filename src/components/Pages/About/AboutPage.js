@@ -15,14 +15,14 @@ class AboutPage extends React.Component {
                     <div className={styles.info}>
                         <CardInfo text={"Hello!"}
                             paragraphs={[
-                                "My name’s Meyer, I am a non-traditional physics major in my final year at University of Maryland. I’ve returned to study physics to use applied physics R&D to contribute to transitioning to a sustainable world.",
-                                "Beginning Summer 2021, I’ve been an undergraduate researcher in applied physics / geophysics with Lathrop Labs. I conduct independent research and collaborate with my fellow lab members.",
-                                "My research role is primarily connected with the NSF grant - “Aerial Vehicle using AI for Landmine Detection” (AVAILD). I designed and fabricated the landing gear for our altaX drone (wingspan over 7ft!) as well as the payload integration for our sensor suite. This required extensive knowledge of Fusion360/autoCAD, machining, 3D-printing, and CFRP FDM.",
-                                "Now that we are up and flying (I’m an FAA-licensed sUAS Pilot), I am working on data collection and analysis for near-surface anomaly/utility detection.",
-                                "In addition to my current research role, I also have a strong background (6+ yrs) in software development; including co-founding a tech startup and freelancing as a full-stack developer prior to my time here at UMD. I’m extremely experienced in Python, Matlab, JS, React and Rails.",
-                                "Apart from pursuing applied physics, I’m also the coordinator for ACTS Int'l, U.S. Chapter (a Ugandan non-profit). We aim to provide a brighter future for young Ugandans by connecting them with educational sponsors.",
+                                "My name’s Meyer. I am a non-traditional physics major in my final year at University of Maryland (UMD). I’m interested in opportunities in R&D towards energy sustainability and drone-based physics/geophysics.",
+                                "Since summer 2021, I’ve been an undergraduate researcher in applied physics / geophysics with Lathrop Labs. I conduct independent research and collaborate with my fellow lab members.",
+                                "My research role is primarily funded by the NSF grant - “Aerial Vehicle using AI for Landmine Detection” (AVAILD). I designed and fabricated the landing gear for our altaX drone (wingspan over 7ft!), as well as the payload integration for our sensor suite (magnetic gradiometer, Lidar, thermal imager). This required extensive knowledge of Fusion360/autoCAD, machining, 3D-printing, and CFRP FDM.",
+                                "Now that we are up and flying (I’m an FAA-licensed sUAS Pilot), I am working on data acquisition and analysis in the near-surface. This includes detection and categorization of land mines through AVAILD and utility mapping through my independent research.",
+                                "In addition to my current research role, I have 7+ years coding experience across various languages, including Python, Matlab, Javascript, React, and Rails. I also have a strong background in software development. This includes co-founding a tech startup and freelancing as a full-stack developer prior to my time at UMD.",
+                                "Apart from studying applied physics, I’m the U.S. coordinator for a Ugandan non-profit. We build schoolhouses in Bulambuli and aim to provide a brighter future for young Ugandans by connecting them with educational sponsors.",
                                 "When I’m not in the lab, you’ll typically find me out in the mountains rock climbing or exploring our wonderful world!",
-                                "I’m interested in opportunities in R&D towards sustainability or drone-based physics/geophysics."
+                                "Looking forward to hearing about related opportunities."
                             ]}
                         />
                         {/* <CardInfo text={"Hey! I'm Meyer. Add: Current studies/research and hobbies a bit of trivia."}
