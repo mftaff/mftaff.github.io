@@ -13,9 +13,9 @@ class PursuitsPage extends React.Component {
             <div className={styles.page}>
                 <div className={styles.grid}>
                     <PursuitShowcase
-                        title={"Undergraduate Researcher"}
+                        title={"Remote Sensing Data Analysis"}
                         image={physicsPhoto}
-                        shortDesc={"Using geophysical methods to collect and analyze data for detection/ID of near-surface anomolies."}
+                        shortDesc={"Using Magnetic Gradiometry and burial depth data inversions to locate subsurface anomalies. Matlab, Python, QGIS, Leafmap."}
                         url={"/pursuits/research"}
                     />
                     <PursuitShowcase
