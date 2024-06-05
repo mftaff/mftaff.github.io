@@ -19,7 +19,7 @@ class PursuitsPage extends React.Component {
                         url={"/pursuits/research"}
                     />
                     <PursuitShowcase
-                        title={"Octagear & Payload Integration"}
+                        title={"Project Development"}
                         image={octagearPhoto}
                         shortDesc={"Development of landing gear and payload integration package."}
                         tools={"CAD (Fusion360, AutoCad), RPT, CFRP FDM, Machining"}
