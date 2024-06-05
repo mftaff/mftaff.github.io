@@ -13,9 +13,9 @@ class PursuitsPage extends React.Component {
             <div className={styles.page}>
                 <div className={styles.grid}>
                     <PursuitShowcase
-                        title={"Remote Sensing Data Analysis"}
+                        title={"Research Assistant"}
                         image={physicsPhoto}
-                        shortDesc={"Using Magnetic Gradiometry and burial depth data inversions to locate subsurface anomalies. Matlab, Python, QGIS, Leafmap."}
+                        shortDesc={"Use of Magnetic Gradiometry and trans-dimensional inversion modeling to locate subsurface anomalies."}
                         url={"/pursuits/research"}
                     />
                     <PursuitShowcase
@@ -26,16 +26,16 @@ class PursuitsPage extends React.Component {
                         url={"/pursuits/freelancing"}
                     />
                     <PursuitShowcase
-                        title={"Senior, B.S Physics"}
+                        title={"B.SC Physics"}
                         image={physicsPhoto}
-                        shortDesc={"Applied Physics, R&D, Renewable Energy, Sustainability"}
-                        tools={"Spring '24 | GPA 3.7"}
+                        shortDesc={"Applied Physics, R&D, Manufacturing, UAVs"}
+                        tools={"Spring '24 | GPA 3.8"}
                         url={"/pursuits/physics"}
                     />
                     <PursuitShowcase
-                        title={"sUAS Pilot"}
+                        title={"Part-107 Pilot"}
                         image={pilotPhoto}
-                        shortDesc={"FAA-licensed sUAS pilot. (Part 107)"}
+                        shortDesc={"FAA-licensed sUAS pilot"}
                         tools={""}
                         url={"/pursuits/pilot"}
                     />
@@ -48,8 +48,8 @@ class PursuitsPage extends React.Component {
                     <PursuitShowcase
                         title={"Rock Climber"}
                         image={climbingPhoto}
-                        shortDesc={"Favorite Climbs:"} 
-                        tools={"Critter Crack 5.6, Seneca Rocks. Frosty Cone 5.7, Joshua Tree. Superslab 5.10d, Safe Harbor."}
+                        shortDesc={"Favorite Crags:"} 
+                        tools={"Seneca Rocks, J-Tree, RRG"}
                         url={"/pursuits/climbing"}
                     />
                 </div>

@@ -40,8 +40,7 @@ class CareerPage extends React.Component {
                     <CareerShowcase
                         title={
                             <div>
-                                <span>Remote Sensing</span>
-                                <span>Data Analysis</span>
+                                <span>Research Assistant</span>
                             </div>
                         }
                         company={"Lathrop Labs @ UMD"}
@@ -55,7 +54,7 @@ class CareerPage extends React.Component {
                                 <p>Research Responsibilities</p>
                                 <ul>
                                     <li>Development of landing gear and payload integration. CAD (Fusion360, AutoCad), RPT, CFRP FDM, Machining</li>
-                                    <li>Using Magnetic Gradiometry and burial depth data inversions to locate subsurface anomalies. Matlab, Python, QGIS, Leafmap.</li>
+                                    <li>Use of magnetic gradiometry and trans-d inversion modeling to locate subsurface anomalies. Matlab, Gradiometry, Modeling</li>
                                     <li>Part-107 pilot</li>
                                     <li><small>Taffel, M., et al. Use of Magnetic Gradiometry for near surface detection and mapping. (In preparation).</small></li>
                                 </ul>

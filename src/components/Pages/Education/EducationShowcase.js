@@ -16,7 +16,7 @@ class EducationShowcase extends React.Component {
                         title={"B.S Physics"}
                         location={"College Park, MD"}
                         imgSrc={umdLogo}
-                        gpa={"3.75"}
+                        gpa={"3.8"}
                         url={"https://umdphysics.umd.edu/"}
                         target={"_blank"}
                         year={"Spring '24"}
