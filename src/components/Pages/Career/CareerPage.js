@@ -54,7 +54,7 @@ class CareerPage extends React.Component {
                                 <p>Research Responsibilities</p>
                                 <ul>
                                     <li>Development of landing gear and payload integration. CAD (Fusion360, AutoCad), RPT, CFRP FDM, Machining</li>
-                                    <li>Use of magnetic gradiometry and trans-d inversion modeling to locate subsurface anomalies. Matlab, Gradiometry, Modeling</li>
+                                    <li>Use of magnetic gradiometry & trans-dim. inverse modeling to locate subsurface anomalies. Matlab, Gradiometry, Modeling</li>
                                     <li>Part-107 pilot</li>
                                     <li><small>Taffel, M., et al. Use of Magnetic Gradiometry for near surface detection and mapping. (In preparation).</small></li>
                                 </ul>
