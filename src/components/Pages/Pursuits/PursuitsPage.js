@@ -15,7 +15,7 @@ class PursuitsPage extends React.Component {
                     <PursuitShowcase
                         title={"Research Assistant"}
                         image={physicsPhoto}
-                        shortDesc={"Use of Magnetic Gradiometry and trans-dimensional inversion modeling to locate subsurface anomalies."}
+                        shortDesc={"Use of magnetic gradiometry and trans-dimensional inversion modeling to locate subsurface anomalies."}
                         url={"/pursuits/research"}
                     />
                     <PursuitShowcase
