@@ -11,7 +11,7 @@ export default index
 
 export const Head = () => (
   <>
-    <title>Meyer Taffel - Developer | B.S Physics</title>
+    <title>Meyer Taffel</title>
     <meta name="Meyer Taffel" content="" />
   </>
 )
