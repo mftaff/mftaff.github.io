@@ -1,7 +1,6 @@
 import React from 'react'
 import * as style from './BorderedButton.module.css'
 import {Link} from 'gatsby';
-import { trackCustomEvent } from 'gatsby-plugin-google-gtag'
 
 const BorderedButton = ({href, to, target, name}) => {
 
@@ -25,12 +24,8 @@ const BorderedButton = ({href, to, target, name}) => {
 };
 
 function trackEvent() {
-    trackCustomEvent({
-        category: "Current Pursuits Button",
-        action: "Click",
-        // label: "Gatsby Plugin Example Campaign",
-        value: 1,
-    })
+    console.log(window)
+    typeof window !== "undefined" && window.gtag("event", "click")
 }
 
 export default BorderedButton;
