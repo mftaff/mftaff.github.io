@@ -9,6 +9,7 @@ import octagearPhoto from "../../../images/pursuits/AltaXLanded.png";
 
 class PursuitsPage extends React.Component {
     render() {
+        typeof window !== "undefined" && typeof window.gtag !== "undefined" && window.gtag("event", "page_view", {'page_location': '/pursuits/'})
         return (
             <div className={styles.page}>
                 <div className={styles.grid}>
